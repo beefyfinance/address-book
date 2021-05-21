@@ -4,5 +4,9 @@
   "description": "A collection of useful addresses on various chains for defi development",
   "main": "index.js",
   "repository": "beefyfinance/address-book",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "ethereumjs-util": "^7.0.10"
+  }
 }

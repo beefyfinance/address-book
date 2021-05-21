@@ -5,6 +5,9 @@
   "main": "index.js",
   "repository": "beefyfinance/address-book",
   "license": "MIT",
+  "scripts": {
+    "checksum": "node ./test/checksum.js"
+  },
   "devDependencies": {
     "assert": "^2.0.0",
     "ethereumjs-util": "^7.0.10"

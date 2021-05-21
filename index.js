@@ -1,5 +1,6 @@
-const polygon = require("./polygon/index")
+const polygon = require("./address-book/polygon/index")
 
 module.exports = {
     polygon,
+    bsc,
 }

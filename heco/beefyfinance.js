@@ -1,7 +1,7 @@
 const beefyfinance = {
     cowllector: "",
     keeper: "",
-    treasury: "",
+    beefyFeeRecipient: "",
 }
 
 module.exports = {

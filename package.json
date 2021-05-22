@@ -7,20 +7,25 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc",
-    "checksum": "ts-node ./test/checksum.ts"
+    "checksum": "ts-node ./test/checksum.ts",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "assert": "^2.0.0",
-    "ethereumjs-util": "^7.0.10"
-  },
-  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
+    "assert": "^2.0.0",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
+    "ethereumjs-util": "^7.0.10",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
     "prettier": "^2.3.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {},
+  "lint-staged": {
+    "**/*.ts": "eslint --fix"
   }
 }

@@ -52,9 +52,10 @@ filesArr.forEach(file => {
   for (const addressName of addressNameList) {
       const address = exp[addressName]
       const isValid = isValidChecksumAddress(address, chainId)
-      const correctAddress = toChecksumAddress(address, chainId)
+      const correctAddress = address ? toChecksumAddress(address, chainId) : ''
       if (!isValid) {
         invalidAddressList.push({
+          file,
           address,
           addressName,
           correctAddress
@@ -65,8 +66,13 @@ filesArr.forEach(file => {
 
 if (invalidAddressList.length > 0) {
   for (const invalid of invalidAddressList){
-    console.log(invalid.addressName + " does not pass checksum. Address: " + invalid.address + '\n')
-    console.log("The correct address should be: " + invalid.correctAddress)
+    if (!invalid.address) { // (it's a placeholder)
+      console.log("Address " + invalid.addressName + " in file " + invalid.file + " is missing.")
+    }
+    else {
+      console.log("Address " + invalid.addressName + " in file " + invalid.file + " does not pass checksum. Address: " + invalid.address)
+      console.log("The correct address should be: " + invalid.correctAddress + '\n')
+    }
   }
   exit(1)
 }

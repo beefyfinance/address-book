@@ -1,5 +1,5 @@
 const quickswap = {
-  router: "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff", // UniswapV2Router02
+  router: "0xa5E0829CaCeD8fFdD4de3C43696C57f7d7a678FF", // UniswapV2Router02
 };
 
 export default quickswap;

@@ -2,14 +2,25 @@
   "name": "blockchain-addressbook",
   "version": "1.0.0",
   "description": "A collection of useful addresses on various chains for defi development",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": "beefyfinance/address-book",
   "license": "MIT",
   "scripts": {
-    "checksum": "node ./test/checksum.js"
+    "compile": "tsc",
+    "checksum": "ts-node ./test/checksum.ts"
   },
   "devDependencies": {
     "assert": "^2.0.0",
     "ethereumjs-util": "^7.0.10"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
   }
 }

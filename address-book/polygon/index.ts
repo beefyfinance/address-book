@@ -1,7 +1,7 @@
-import beefyfinance from "./beefyfinance";
-import quickswap from "./quickswap";
-import sushi from "./sushi";
-import cometh from "./cometh";
-import polyzap from "./polyzap";
+import beefyfinance from "./platforms/beefyfinance";
+import quickswap from "./platforms/quickswap";
+import sushi from "./platforms/sushi";
+import cometh from "./platforms/cometh";
+import polyzap from "./platforms/polyzap";
 
 export default { beefyfinance, quickswap, sushi, cometh, polyzap };

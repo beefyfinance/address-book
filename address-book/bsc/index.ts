@@ -1,4 +1,13 @@
 import beefyfinance from "./platforms/beefyfinance";
 import pancake from "./platforms/pancake";
+import tokens from "./tokens/tokens";
 
-export default { beefyfinance, pancake };
+const bsc = {
+  platforms: {
+    beefyfinance,
+    pancake,
+  },
+  tokens,
+};
+
+export default bsc;

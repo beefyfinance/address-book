@@ -5,7 +5,9 @@ const transformTokenListToObject = (
 ): Record<string, Token> => {
   const map: Record<string, Token> = {};
   tokenList.tokens.forEach((token) => {
-    map[token.symbol] = token;
+    const tokenKey =
+      token.symbol in map ? `${token.symbol}-${token.name}` : token.symbol;
+    map[tokenKey] = token;
   });
   return map;
 };

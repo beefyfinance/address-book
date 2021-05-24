@@ -29,7 +29,7 @@ export const validateAllAddressesChecksum = (): InvalidAddressInfo[][] => {
 
       for (const addressEntry of Object.entries(addresses)) {
         const addressName = addressEntry[0];
-        const address = addressEntry[1];
+        const address = addressEntry[1] as string;
 
         const isValid = isValidChecksumAddress(address, chainId);
         const correctAddress = address

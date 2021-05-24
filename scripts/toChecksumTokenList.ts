@@ -13,7 +13,7 @@ const toChecksumTokenList = (tokenList: TokenList, chainId: number): void => {
 };
 
 (async () => {
-  const chainId = chainIdMap.avax;
+  const chainId = chainIdMap.polygon;
   const response = await fetch(
     "https://unpkg.com/quickswap-default-token-list@1.0.59/build/quickswap-default.tokenlist.json"
   );

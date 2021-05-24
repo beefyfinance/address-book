@@ -1,4 +1,4 @@
-import addressbook from "../address-book";
+import { addressBook } from "../address-book";
 import { isValidChecksumAddress, toChecksumAddress } from "ethereumjs-util";
 import { exit } from "process";
 import chainIdMap from "../util/chainIdMap";
@@ -15,7 +15,7 @@ export const validateAllAddressesChecksum = (): InvalidAddressInfo[][] => {
   const invalidPlatformAddressList: InvalidAddressInfo[] = [];
   const invalidTokenAddressList: InvalidAddressInfo[] = [];
 
-  const chains = Object.entries(addressbook);
+  const chains = Object.entries(addressBook);
   for (const chain of chains) {
     const chainName = chain[0] as keyof typeof chainIdMap;
     const chainId = chainIdMap[chainName];

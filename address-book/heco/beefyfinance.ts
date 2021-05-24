@@ -1,7 +1,5 @@
-const beefyfinance = {
+export const beefyfinance = {
   cowllector: "",
   keeper: "",
   beefyFeeRecipient: "",
-};
-
-export default beefyfinance;
+} as const;

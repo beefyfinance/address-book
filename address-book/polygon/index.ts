@@ -1,11 +1,11 @@
-import beefyfinance from "./platforms/beefyfinance";
-import quickswap from "./platforms/quickswap";
-import sushi from "./platforms/sushi";
-import cometh from "./platforms/cometh";
-import polyzap from "./platforms/polyzap";
-import tokens from "./tokens/tokens.json";
+import { beefyfinance } from "./platforms/beefyfinance";
+import { quickswap } from "./platforms/quickswap";
+import { sushi } from "./platforms/sushi";
+import { cometh } from "./platforms/cometh";
+import { polyzap } from "./platforms/polyzap";
+import { tokens } from "./tokens/tokens";
 
-const polygon = {
+export const polygon = {
   platforms: {
     beefyfinance,
     quickswap,
@@ -15,5 +15,3 @@ const polygon = {
   },
   tokens,
 };
-
-export default polygon;

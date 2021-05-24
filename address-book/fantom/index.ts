@@ -1,13 +1,11 @@
-import beefyfinance from "./platforms/beefyfinance";
-import tokens from "./tokens/tokens.json";
-import spookyswap from "./platforms/spookyswap";
+import { beefyfinance } from "./platforms/beefyfinance";
+import { spookyswap } from "./platforms/spookyswap";
+import { tokens } from "./tokens/tokens";
 
-const fantom = {
+export const fantom = {
   platforms: {
     beefyfinance,
     spookyswap,
   },
   tokens,
 };
-
-export default fantom;

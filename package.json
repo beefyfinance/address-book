@@ -1,8 +1,12 @@
 {
   "name": "blockchain-addressbook",
-  "version": "1.0.0",
+  "version": "0.1.4",
   "description": "A collection of useful addresses on various chains for defi development",
-  "main": "build/index.js",
+  "main": "build/address-book/index.js",
+  "types": "build/address-book/index.d.ts",
+  "files": [
+    "build/address-book/"
+  ],
   "repository": "beefyfinance/address-book",
   "license": "MIT",
   "scripts": {

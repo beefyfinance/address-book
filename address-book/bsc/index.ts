@@ -1,6 +1,6 @@
-import beefyfinance from "./platforms/beefyfinance";
-import pancake from "./platforms/pancake";
-import tokens from "./tokens/tokens.json";
+import { beefyfinance } from "./platforms/beefyfinance";
+import { pancake } from "./platforms/pancake";
+import { tokens } from "./tokens/tokens";
 
 const bsc = {
   platforms: {
@@ -10,4 +10,4 @@ const bsc = {
   tokens: tokens,
 };
 
-export default bsc;
+export { bsc };

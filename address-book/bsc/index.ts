@@ -1,4 +1,3 @@
-import transformTokenListToObject from "../../util/transfomTokenListToObject";
 import beefyfinance from "./platforms/beefyfinance";
 import pancake from "./platforms/pancake";
 import tokens from "./tokens/tokens.json";
@@ -8,7 +7,7 @@ const bsc = {
     beefyfinance,
     pancake,
   },
-  tokens: transformTokenListToObject(tokens),
+  tokens: tokens,
 };
 
 export default bsc;

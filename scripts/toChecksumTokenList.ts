@@ -11,7 +11,7 @@ const transformTokenListToObject = (
   for (const token of tokens) {
     token.address = toChecksumAddress(token.address, chainId);
   }
-  console.log(JSON.stringify(tokens));
+  console.log(JSON.stringify(tokenList));
 };
 
 transformTokenListToObject(tokenList, 56);

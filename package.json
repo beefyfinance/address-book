@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc",
-    "checksum": "ts-node ./test/checksum.ts",
+    "checksum": "ts-node ./scripts/checksum.ts",
     "prepare": "husky install"
   },
   "devDependencies": {

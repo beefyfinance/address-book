@@ -20,6 +20,7 @@
     },
     "include": [
       "address-book/",
-      "test/"
+      "scripts/",
+      "util/",
     ]
 }

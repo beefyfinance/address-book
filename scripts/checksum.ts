@@ -17,7 +17,7 @@ export const validateAllAddressesChecksum = (): InvalidAddressInfo[][] => {
 
   const chains = Object.entries(addressbook);
   for (const chain of chains) {
-    const chainName = chain[0];
+    const chainName = chain[0] as keyof typeof chainIdMap;
     const chainId = chainIdMap[chainName];
     const { platforms, tokens } = chain[1];
     const platformEntries = Object.entries(platforms);

@@ -1,4 +1,4 @@
-const chainIdMap: { [chain: string]: number } = {
+const chainIdMap = {
   bsc: 56,
   heco: 128,
   avax: 43114,

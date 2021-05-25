@@ -1,29 +1,43 @@
 import { toChecksumAddress } from "ethereumjs-util";
-import { TokenList } from "../util/tokenList";
+import { Token, TokenList } from "../util/tokenList";
 import fetch from "node-fetch";
+import tokenList from "./sampleList.json";
 
 import transformTokenListToObject from "../util/transfomTokenListToObject";
 import chainIdMap from "../util/chainIdMap";
 
 const tokenLists = {
-  pancake:
+  pancake: [
     "https://gateway.pinata.cloud/ipfs/QmdKy1K5TMzSHncLzUXUJdvKi1tHRmJocDRfmCXxW5mshS",
-  quickswap:
+  ],
+  quickswap: [
     "https://unpkg.com/quickswap-default-token-list@1.0.59/build/quickswap-default.tokenlist.json",
+  ],
+  avax: [
+    "https://raw.githubusercontent.com/pangolindex/tokenlists/main/aeb.tokenlist.json",
+    "https://raw.githubusercontent.com/pangolindex/tokenlists/main/defi.tokenlist.json",
+    "https://raw.githubusercontent.com/pangolindex/tokenlists/main/stablecoin.tokenlist.json",
+  ],
 };
 
-const toChecksumTokenList = (tokenList: TokenList, chainId?: number): void => {
-  const tokens = tokenList.tokens;
+const toChecksumTokenList = (tokens: Token[], chainId?: number): void => {
   for (const token of tokens) {
     token.address = toChecksumAddress(token.address);
   }
 };
 
 (async () => {
-  const chainId = chainIdMap.polygon;
-  const response = await fetch(tokenLists.quickswap);
-  const tokenList = (await response.json()) as unknown as TokenList;
-  toChecksumTokenList(tokenList);
-  const toMap = transformTokenListToObject(tokenList, chainId);
+  const chainId = chainIdMap.avax;
+  let tokens: any[] = [];
+  let tokenListFinal: any;
+  for (const tokenList of tokenLists.avax) {
+    const response = await fetch(tokenList);
+    const tokenListTmp = (await response.json()) as unknown as TokenList;
+    tokenListFinal = tokenListTmp;
+    tokens = [...tokens, ...tokenListTmp.tokens];
+  }
+  toChecksumTokenList(tokens);
+  tokenListFinal.tokens = tokens;
+  const toMap = transformTokenListToObject(tokenListFinal, chainId);
   console.log(JSON.stringify(toMap));
 })();

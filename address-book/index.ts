@@ -5,7 +5,7 @@ import { fantom } from "./fantom/index";
 
 export const addressBook = {
   polygon,
-  // bsc,
+  bsc,
   // avax,
   // fantom,
 };

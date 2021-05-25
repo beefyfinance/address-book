@@ -13,9 +13,9 @@ const toChecksumTokenList = (tokenList: TokenList, chainId?: number): void => {
 };
 
 (async () => {
-  const chainId = chainIdMap.polygon;
+  const chainId = chainIdMap.bsc;
   const response = await fetch(
-    "https://unpkg.com/quickswap-default-token-list@1.0.59/build/quickswap-default.tokenlist.json"
+    "https://gateway.pinata.cloud/ipfs/QmdKy1K5TMzSHncLzUXUJdvKi1tHRmJocDRfmCXxW5mshS"
   );
   const tokenList = (await response.json()) as unknown as TokenList;
   toChecksumTokenList(tokenList);

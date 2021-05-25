@@ -31,10 +31,8 @@ export const validateAllAddressesChecksum = (): InvalidAddressInfo[][] => {
         const addressName = addressEntry[0];
         const address = addressEntry[1] as string;
 
-        const isValid = isValidChecksumAddress(address, chainId);
-        const correctAddress = address
-          ? toChecksumAddress(address, chainId)
-          : "";
+        const isValid = isValidChecksumAddress(address);
+        const correctAddress = address ? toChecksumAddress(address) : "";
         if (!isValid) {
           invalidPlatformAddressList.push({
             chainName,
@@ -54,8 +52,8 @@ export const validateAllAddressesChecksum = (): InvalidAddressInfo[][] => {
       const tokenInfo = tokenInfoEntry[1];
       const address = tokenInfo.address;
 
-      const isValid = isValidChecksumAddress(address, chainId);
-      const correctAddress = address ? toChecksumAddress(address, chainId) : "";
+      const isValid = isValidChecksumAddress(address);
+      const correctAddress = address ? toChecksumAddress(address) : "";
       if (!isValid) {
         invalidTokenAddressList.push({
           chainName,

@@ -1,7 +1,7 @@
 export const tokens = {
   $DG: {
     name: "decentral.games",
-    address: "0x2A93172C8DccBfbc60a39D56183B7279a2F647B4",
+    address: "0x2a93172c8DCCbfBC60a39d56183B7279a2F647b4",
     symbol: "$DG",
     decimals: 18,
     chainId: 137,
@@ -10,7 +10,7 @@ export const tokens = {
   },
   "0xBTC": {
     name: "0xBitcoin Token",
-    address: "0x71B821aa52A49F32eEd535fCA6eB5Aa130085978",
+    address: "0x71B821aa52a49F32EEd535fCA6Eb5aa130085978",
     symbol: "0xBTC",
     decimals: 8,
     chainId: 137,
@@ -19,7 +19,7 @@ export const tokens = {
   },
   AAVE: {
     name: "Aave",
-    address: "0xD6DF932a45c0F255F85145F286eA0B292b21c90b",
+    address: "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
     symbol: "AAVE",
     decimals: 18,
     chainId: 137,
@@ -27,7 +27,7 @@ export const tokens = {
   },
   AGA: {
     name: "AGA Token",
-    address: "0x033d942a6b495C4071083f4CdE1f17e986fe856C",
+    address: "0x033d942A6b495C4071083f4CDe1f17e986FE856c",
     symbol: "AGA",
     decimals: 4,
     chainId: 137,
@@ -35,7 +35,7 @@ export const tokens = {
   },
   AGAr: {
     name: "AGA Rewards",
-    address: "0xf84BD51eaB957c2e7B7D646A3427C5A50848281D",
+    address: "0xF84BD51eab957c2e7B7D646A3427C5A50848281D",
     symbol: "AGAr",
     decimals: 8,
     chainId: 137,
@@ -43,7 +43,7 @@ export const tokens = {
   },
   ANY: {
     name: "Anyswap",
-    address: "0x6AB6d61428FDE76768d7B45d8BfeeC19C6Ef91a8",
+    address: "0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8",
     symbol: "ANY",
     decimals: 18,
     chainId: 137,
@@ -52,7 +52,7 @@ export const tokens = {
   },
   ARIA20: {
     name: "ARIANEE",
-    address: "0x46f48fBDeDaA6f5500993bEde9539Ef85f4BeE8e",
+    address: "0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e",
     symbol: "ARIA20",
     decimals: 18,
     chainId: 137,
@@ -60,7 +60,7 @@ export const tokens = {
   },
   AZUKI: {
     name: "DokiDokiAzuki",
-    address: "0x7cdC0421469398E0F3aA8890693d86C840aC8931",
+    address: "0x7CdC0421469398e0F3aA8890693d86c840Ac8931",
     symbol: "AZUKI",
     decimals: 18,
     chainId: 137,
@@ -69,7 +69,7 @@ export const tokens = {
   },
   BIFI: {
     name: "beefy.finance",
-    address: "0xfbDD194376dE19A88118E84E279b977f165d01B8",
+    address: "0xFbdd194376de19a88118e84E279b977f165d01b8",
     symbol: "BIFI",
     decimals: 18,
     chainId: 137,
@@ -78,7 +78,7 @@ export const tokens = {
   },
   BTU: {
     name: "BTU Protocol",
-    address: "0xFDC26cDa2d2440D0E83cD1deE8E8bE48405806Dc",
+    address: "0xFdc26CDA2d2440d0E83CD1DeE8E8bE48405806DC",
     symbol: "BTU",
     decimals: 18,
     chainId: 137,
@@ -87,7 +87,7 @@ export const tokens = {
   },
   CC10: {
     name: "Cryptocurrency Top Tokens Index",
-    address: "0x9c49ba0212Bb5db371E66b59D1565b7c06e4894E",
+    address: "0x9c49BA0212Bb5Db371e66b59D1565b7c06E4894e",
     symbol: "CC10",
     decimals: 18,
     chainId: 137,
@@ -95,7 +95,7 @@ export const tokens = {
   },
   CEL: {
     name: "Celsius",
-    address: "0xD85d1E945766FEa5EdA9103f918Bd915fBca63e6",
+    address: "0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6",
     symbol: "CEL",
     decimals: 4,
     chainId: 137,
@@ -104,7 +104,7 @@ export const tokens = {
   },
   CFI: {
     name: "CyberFi Token",
-    address: "0xecF8F2fA183b1c4D2A269Bf98a54FCe86c812D3e",
+    address: "0xeCf8f2FA183b1C4d2A269BF98A54fCe86C812d3e",
     symbol: "CFI",
     decimals: 18,
     chainId: 137,
@@ -112,7 +112,7 @@ export const tokens = {
   },
   COMP: {
     name: "Compound",
-    address: "0x8505B9d2254A7ae468c0e9dD10cCeA3A837aEf5C",
+    address: "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
     symbol: "COMP",
     decimals: 18,
     chainId: 137,
@@ -121,7 +121,7 @@ export const tokens = {
   },
   CTSI: {
     name: "Cartesi Token",
-    address: "0x2727Ab1C2D22170ABC9B595177B2D5c6e1aB7B7b",
+    address: "0x2727Ab1c2D22170ABc9b595177B2D5C6E1Ab7B7B",
     symbol: "CTSI",
     decimals: 18,
     chainId: 137,
@@ -129,7 +129,7 @@ export const tokens = {
   },
   DAI: {
     name: "Dai Stablecoin",
-    address: "0x8F3cf7AD23cd3Cadbd9735AFf958023239c6a063",
+    address: "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
     symbol: "DAI",
     decimals: 18,
     chainId: 137,
@@ -138,7 +138,7 @@ export const tokens = {
   },
   DB: {
     name: "Dark.Build",
-    address: "0x0e59d50adD2d90F5111aCA875BaE0A72d95B4762",
+    address: "0x0e59D50adD2d90f5111aca875baE0a72D95B4762",
     symbol: "DB",
     decimals: 18,
     chainId: 137,
@@ -146,7 +146,7 @@ export const tokens = {
   },
   DEFI5: {
     name: "DEFI Top 5 Tokens Index",
-    address: "0x42435F467D33E5c4146A4e8893976eF12BbcE762",
+    address: "0x42435F467D33e5C4146a4E8893976ef12BBCE762",
     symbol: "DEFI5",
     decimals: 18,
     chainId: 137,
@@ -154,7 +154,7 @@ export const tokens = {
   },
   DEGEN: {
     name: "DEGEN Index",
-    address: "0x8a2870Fb69a90000D6439b7aDFb01D4bA383a415",
+    address: "0x8a2870fb69A90000D6439b7aDfB01d4bA383A415",
     symbol: "DEGEN",
     decimals: 18,
     chainId: 137,
@@ -163,7 +163,7 @@ export const tokens = {
   },
   DMT: {
     name: "Dark Matter Token",
-    address: "0xD28449Bb9bB659725accad52947677cCe3719FD7",
+    address: "0xd28449BB9bB659725aCcAd52947677ccE3719fD7",
     symbol: "DMT",
     decimals: 18,
     chainId: 137,
@@ -171,7 +171,7 @@ export const tokens = {
   },
   DRC: {
     name: "Digital Reserve Currency",
-    address: "0xFEd16C746cb5BFEd009730f9E3e6A673006105C7",
+    address: "0xFeD16c746CB5BFeD009730f9E3e6A673006105c7",
     symbol: "DRC",
     decimals: 0,
     chainId: 137,
@@ -180,7 +180,7 @@ export const tokens = {
   },
   DSLA: {
     name: "DSLA",
-    address: "0xA0e390E9cEa0d0E8cd40048CeD9FA9EA10d71639",
+    address: "0xa0E390e9ceA0D0e8cd40048ced9fA9EA10D71639",
     symbol: "DSLA",
     decimals: 18,
     chainId: 137,
@@ -188,7 +188,7 @@ export const tokens = {
   },
   ELET: {
     name: "Elementeum",
-    address: "0x07738EB4cE8932cA961c815cB12c9d4AB5BD0DA4",
+    address: "0x07738Eb4ce8932CA961c815Cb12C9d4ab5Bd0Da4",
     symbol: "ELET",
     decimals: 18,
     chainId: 137,
@@ -196,7 +196,7 @@ export const tokens = {
   },
   EMON: {
     name: "EthermonToken",
-    address: "0xD6A5Ab46Ead26F49B03bBB1F9eb1ad5C1767974A",
+    address: "0xd6A5aB46ead26f49b03bBB1F9EB1Ad5c1767974a",
     symbol: "EMON",
     decimals: 18,
     chainId: 137,
@@ -204,7 +204,7 @@ export const tokens = {
   },
   ETH: {
     name: "Ether",
-    address: "0x7ceB23fD6Bc0Add59E62ac25578270CFf1b9F619",
+    address: "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
     symbol: "ETH",
     decimals: 18,
     chainId: 137,
@@ -213,7 +213,7 @@ export const tokens = {
   },
   FISH: {
     name: "Fish",
-    address: "0x3A3dF212B7AA91aa0402B9035b098891D276572B",
+    address: "0x3a3Df212b7AA91Aa0402B9035b098891d276572B",
     symbol: "FISH",
     decimals: 18,
     chainId: 137,
@@ -221,7 +221,7 @@ export const tokens = {
   },
   FRAX: {
     name: "Frax",
-    address: "0x104592A158490a9228070e0A8e5343b499E125D0",
+    address: "0x104592a158490a9228070E0A8e5343B499e125D0",
     symbol: "FRAX",
     decimals: 18,
     chainId: 137,
@@ -229,7 +229,7 @@ export const tokens = {
   },
   FSN: {
     name: "Fusion",
-    address: "0x2bF9b864cDc97B08B6d79AD4663e71B8AB65C45C",
+    address: "0x2bF9b864cdc97b08B6D79ad4663e71B8aB65c45c",
     symbol: "FSN",
     decimals: 18,
     chainId: 137,
@@ -237,7 +237,7 @@ export const tokens = {
   },
   FXS: {
     name: "Frax Share",
-    address: "0x3e121107F6f22DA4911079845A470757Af4e1a1b",
+    address: "0x3e121107F6F22DA4911079845a470757aF4e1A1b",
     symbol: "FXS",
     decimals: 18,
     chainId: 137,
@@ -245,7 +245,7 @@ export const tokens = {
   },
   GAME: {
     name: "GAME Credits",
-    address: "0x8D1566569d5B695d44a9A234540F68d393cdc40D",
+    address: "0x8d1566569d5b695d44a9a234540f68D393cDC40D",
     symbol: "GAME",
     decimals: 18,
     chainId: 137,
@@ -253,7 +253,7 @@ export const tokens = {
   },
   GFARM2: {
     name: "Gains V2",
-    address: "0x7075cab6BcCA06613e2d071Bd918D1a0241379E2",
+    address: "0x7075cAB6bCCA06613e2d071bd918D1a0241379E2",
     symbol: "GFARM2",
     decimals: 18,
     chainId: 137,
@@ -261,7 +261,7 @@ export const tokens = {
   },
   GHST: {
     name: "Aavegotchi GHST Token",
-    address: "0x385eEAc5cb85A38A9A07a70C73e0A3271cfB54A7",
+    address: "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
     symbol: "GHST",
     decimals: 18,
     chainId: 137,
@@ -269,7 +269,7 @@ export const tokens = {
   },
   HEX: {
     name: "HEXX",
-    address: "0x23d29D30e35c5e8D321E1dc9A8A61bfD846d4c5c",
+    address: "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C",
     symbol: "HEX",
     decimals: 8,
     chainId: 137,
@@ -277,7 +277,7 @@ export const tokens = {
   },
   HH: {
     name: "Holyheld",
-    address: "0x521cDdc0CbA84F14C69C1E99249f781aa73ee0bc",
+    address: "0x521CddC0CBa84F14c69C1E99249F781AA73Ee0BC",
     symbol: "HH",
     decimals: 18,
     chainId: 137,
@@ -286,7 +286,7 @@ export const tokens = {
   },
   iFARM: {
     name: "iFARM",
-    address: "0xAb0B2DdB9C7E440fac8E140A89c0DbcbF2d7bbff",
+    address: "0xab0b2ddB9C7e440fAc8E140A89c0dbCBf2d7Bbff",
     symbol: "iFARM",
     decimals: 18,
     chainId: 137,
@@ -295,7 +295,7 @@ export const tokens = {
   },
   IGG: {
     name: "IG Gold",
-    address: "0xE6fC6c7cB6d2c31b359A49A33eF08Ab87F4de7cE",
+    address: "0xe6FC6C7CB6d2c31b359A49A33eF08aB87F4dE7CE",
     symbol: "IGG",
     decimals: 6,
     chainId: 137,
@@ -304,7 +304,7 @@ export const tokens = {
   },
   Krill: {
     name: "Krill",
-    address: "0x05089c9eBfFA4f0aCa269E32056B1B36B37Ed71B",
+    address: "0x05089C9EBFFa4F0AcA269e32056b1b36B37ED71b",
     symbol: "Krill",
     decimals: 18,
     chainId: 137,
@@ -312,7 +312,7 @@ export const tokens = {
   },
   LEND: {
     name: "EthLend Token",
-    address: "0x313d009888329C9d1Cf4f75cA3f32566335bd604",
+    address: "0x313d009888329C9d1cf4f75CA3f32566335bd604",
     symbol: "LEND",
     decimals: 18,
     chainId: 137,
@@ -321,7 +321,7 @@ export const tokens = {
   },
   LINK: {
     name: "ChainLink Token",
-    address: "0x53E0bcA35eC356bD5DDdFEbbd1fC0fd03fABAd39",
+    address: "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
     symbol: "LINK",
     decimals: 18,
     chainId: 137,
@@ -330,7 +330,7 @@ export const tokens = {
   },
   maAAVE: {
     name: "Matic Aave interest bearing AAVE",
-    address: "0x823cd4264C1b951C9209ad0deAEa9988FE8429Bf",
+    address: "0x823CD4264C1b951C9209aD0DeAea9988fE8429bF",
     symbol: "maAAVE",
     decimals: 18,
     chainId: 137,
@@ -338,7 +338,7 @@ export const tokens = {
   },
   maDAI: {
     name: "Matic Aave interest bearing DAI",
-    address: "0xe0B22e0037b130a9f56bBB537684e6fa18192341",
+    address: "0xE0b22E0037B130A9F56bBb537684E6fA18192341",
     symbol: "maDAI",
     decimals: 18,
     chainId: 137,
@@ -346,7 +346,7 @@ export const tokens = {
   },
   maLINK: {
     name: "Matic Aave interest bearing LINK",
-    address: "0x98eA609569bd25119707451ef982B90e3eB719CD",
+    address: "0x98ea609569bD25119707451eF982b90E3eb719cD",
     symbol: "maLINK",
     decimals: 18,
     chainId: 137,
@@ -354,7 +354,7 @@ export const tokens = {
   },
   MANA: {
     name: "Decentraland MANA",
-    address: "0xA1c57f48f0Deb89F569DFBe6E2B7f46D33606FD4",
+    address: "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
     symbol: "MANA",
     decimals: 18,
     chainId: 137,
@@ -363,7 +363,7 @@ export const tokens = {
   },
   maTUSD: {
     name: "Matic Aave interest bearing TUSD",
-    address: "0xf4b8888427b00d7cAf21654408b7CBa2ECf4Ebd9",
+    address: "0xF4b8888427b00d7caf21654408B7CBA2eCf4EbD9",
     symbol: "maTUSD",
     decimals: 18,
     chainId: 137,
@@ -371,7 +371,7 @@ export const tokens = {
   },
   maUNI: {
     name: "Matic Aave interest bearing UNI",
-    address: "0x8C8bDBe9ceE455732525086264a4BF9CF821c498",
+    address: "0x8c8bdBe9CeE455732525086264a4Bf9Cf821C498",
     symbol: "maUNI",
     decimals: 18,
     chainId: 137,
@@ -379,7 +379,7 @@ export const tokens = {
   },
   maUSDC: {
     name: "Matic Aave interest bearing USDC",
-    address: "0x9719d867a500ef117Cc201206B8aB51E794D3F82",
+    address: "0x9719d867A500Ef117cC201206B8ab51e794d3F82",
     symbol: "maUSDC",
     decimals: 6,
     chainId: 137,
@@ -387,7 +387,7 @@ export const tokens = {
   },
   maUSDT: {
     name: "Matic Aave interest bearing USDT",
-    address: "0xDAe5F1590db13e3b40423b5b5C5Fbf175515910B",
+    address: "0xDAE5F1590db13E3B40423B5b5c5fbf175515910b",
     symbol: "maUSDT",
     decimals: 6,
     chainId: 137,
@@ -395,7 +395,7 @@ export const tokens = {
   },
   maWETH: {
     name: "Matic Aave interest bearing WETH",
-    address: "0x20d3922b4A1a8560E1AC99FbA4FadE0c849E2142",
+    address: "0x20D3922b4a1A8560E1aC99FBA4faDe0c849e2142",
     symbol: "maWETH",
     decimals: 18,
     chainId: 137,
@@ -403,7 +403,7 @@ export const tokens = {
   },
   maYFI: {
     name: "Matic Aave interest bearing YFI",
-    address: "0xe20F7D1f0Ec39c4d5dB01F53554F2ef54C71F613",
+    address: "0xe20f7d1f0eC39C4d5DB01f53554F2EF54c71f613",
     symbol: "maYFI",
     decimals: 18,
     chainId: 137,
@@ -411,7 +411,7 @@ export const tokens = {
   },
   mDEF: {
     name: "Matic Deflect Protocol",
-    address: "0x82B6205002eCD05E97642D38d61e2cfeac0e18CE",
+    address: "0x82B6205002ecd05e97642D38D61e2cFeaC0E18cE",
     symbol: "mDEF",
     decimals: 9,
     chainId: 137,
@@ -419,7 +419,7 @@ export const tokens = {
   },
   miMATIC: {
     name: "miMATIC",
-    address: "0xa3fA99a148Fa48D14eD51d610c367C61876997f1",
+    address: "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
     symbol: "miMATIC",
     decimals: 18,
     chainId: 137,
@@ -428,7 +428,7 @@ export const tokens = {
   },
   mOCEAN: {
     name: "Ocean Token",
-    address: "0x282d8eFCe846A88B159800BD4130ad77443FA1a1",
+    address: "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",
     symbol: "mOCEAN",
     decimals: 18,
     chainId: 137,
@@ -437,7 +437,7 @@ export const tokens = {
   },
   MONA: {
     name: "Monavale",
-    address: "0x6968105460f67c3BF751be7C15F92F5286fd0Ce5",
+    address: "0x6968105460f67c3BF751bE7C15f92F5286Fd0CE5",
     symbol: "MONA",
     decimals: 18,
     chainId: 137,
@@ -445,7 +445,7 @@ export const tokens = {
   },
   mRBAL: {
     name: "Matic Rebalance Token",
-    address: "0x66768ad00746AC4d68DeD9F64886d55D5243F5ec",
+    address: "0x66768ad00746aC4d68ded9f64886d55d5243f5Ec",
     symbol: "mRBAL",
     decimals: 18,
     chainId: 137,
@@ -453,7 +453,7 @@ export const tokens = {
   },
   MUST: {
     name: "Must",
-    address: "0x9c78eE466D6cb57A4d01fd887D2b5Dfb2D46288F",
+    address: "0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f",
     symbol: "MUST",
     decimals: 18,
     chainId: 137,
@@ -461,7 +461,7 @@ export const tokens = {
   },
   NFTP: {
     name: "NFT Platform Index",
-    address: "0xF7D9E281c5cB4c6796284c5b663b3593d2037aF2",
+    address: "0xf7d9e281c5Cb4C6796284C5b663b3593D2037aF2",
     symbol: "NFTP",
     decimals: 18,
     chainId: 137,
@@ -470,7 +470,7 @@ export const tokens = {
   },
   OM: {
     name: "OM",
-    address: "0xC3Ec80343D2BAE2F8e680FdADDE7C17e71e114Ea",
+    address: "0xC3Ec80343D2bae2F8E680FDADDe7C17E71E114ea",
     symbol: "OM",
     decimals: 18,
     chainId: 137,
@@ -478,7 +478,7 @@ export const tokens = {
   },
   OPU: {
     name: "Opu Coin",
-    address: "0x7FF2fC33e161e3B1c6511B934f0209d304267857",
+    address: "0x7ff2FC33E161E3b1C6511B934F0209D304267857",
     symbol: "OPU",
     decimals: 18,
     chainId: 137,
@@ -487,7 +487,7 @@ export const tokens = {
   },
   PLOT: {
     name: "PLOT",
-    address: "0xe82808EAa78339B06a691fd92E1BE79671CAD8D3",
+    address: "0xe82808eaA78339b06a691fd92E1Be79671cAd8D3",
     symbol: "PLOT",
     decimals: 18,
     chainId: 137,
@@ -495,7 +495,7 @@ export const tokens = {
   },
   PolyDoge: {
     name: "PolyDoge",
-    address: "0x8A953cfe442C5E8855cc6c61B1293fa648baE472",
+    address: "0x8A953CfE442c5E8855cc6c61b1293FA648BAE472",
     symbol: "PolyDoge",
     decimals: 18,
     chainId: 137,
@@ -503,7 +503,7 @@ export const tokens = {
   },
   PPDEX: {
     name: "Pepedex",
-    address: "0x127984B5e6d5C59F81DACC9F1C8b3BdC8494572e",
+    address: "0x127984b5E6d5c59f81DACc9F1C8b3Bdc8494572e",
     symbol: "PPDEX",
     decimals: 18,
     chainId: 137,
@@ -511,7 +511,7 @@ export const tokens = {
   },
   QI: {
     name: "Qi Dao",
-    address: "0x580A84C73811e1839f75d86D75D88cca0c241FF4",
+    address: "0x580A84C73811E1839F75d86d75d88cCa0c241fF4",
     symbol: "QI",
     decimals: 18,
     chainId: 137,
@@ -520,7 +520,7 @@ export const tokens = {
   },
   QUICK: {
     name: "Quickswap",
-    address: "0x831753Dd7087Cac61Ab5644b308642CC1C33dc13",
+    address: "0x831753DD7087CaC61aB5644b308642cc1c33Dc13",
     symbol: "QUICK",
     decimals: 18,
     chainId: 137,
@@ -529,7 +529,7 @@ export const tokens = {
   },
   RBAL: {
     name: "Rebalance Token",
-    address: "0x03247A4368A280bec8133300cd930A3A61d604f6",
+    address: "0x03247a4368A280bEc8133300cD930A3a61d604f6",
     symbol: "RBAL",
     decimals: 18,
     chainId: 137,
@@ -538,7 +538,7 @@ export const tokens = {
   },
   SENT: {
     name: "Sentinel",
-    address: "0x48e3883233461c2EF4CB3fCF419D6DB07fB86CEa",
+    address: "0x48e3883233461C2eF4cB3FcF419D6db07fb86CeA",
     symbol: "SENT",
     decimals: 8,
     chainId: 137,
@@ -547,7 +547,7 @@ export const tokens = {
   },
   SUPER: {
     name: "SuperFarm",
-    address: "0xa1428174F516F527faFdD146B883bb4428682737",
+    address: "0xa1428174F516F527fafdD146b883bB4428682737",
     symbol: "SUPER",
     decimals: 18,
     chainId: 137,
@@ -556,7 +556,7 @@ export const tokens = {
   },
   SWAP: {
     name: "TrustSwap Token",
-    address: "0x3809dCDD5DDE24b37abE64A5A339784C3323c44F",
+    address: "0x3809dcDd5dDe24B37AbE64A5a339784c3323c44F",
     symbol: "SWAP",
     decimals: 18,
     chainId: 137,
@@ -564,7 +564,7 @@ export const tokens = {
   },
   SWG: {
     name: "Swirge",
-    address: "0x043a3aa319B563ac25d4E342D32bfFB51298db7b",
+    address: "0x043A3Aa319B563aC25D4E342d32bFfb51298DB7b",
     symbol: "SWG",
     decimals: 18,
     chainId: 137,
@@ -572,7 +572,7 @@ export const tokens = {
   },
   SX: {
     name: "SportX",
-    address: "0x840195888db4D6A99Ed9f73fCd3b225bb3CB1A79",
+    address: "0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79",
     symbol: "SX",
     decimals: 18,
     chainId: 137,
@@ -581,7 +581,7 @@ export const tokens = {
   },
   TEL: {
     name: "Telcoin",
-    address: "0xdF7837DE1f2fA4631D716CF2502f8B230F1DcC32",
+    address: "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32",
     symbol: "TEL",
     decimals: 2,
     chainId: 137,
@@ -590,7 +590,7 @@ export const tokens = {
   },
   UBT: {
     name: "Unibright",
-    address: "0x7FbC10850Cae055b27039aF31BD258430E714C62",
+    address: "0x7FBc10850caE055B27039aF31bD258430e714c62",
     symbol: "UBT",
     decimals: 8,
     chainId: 137,
@@ -599,7 +599,7 @@ export const tokens = {
   },
   UNI: {
     name: "Uniswap",
-    address: "0xB33eaAD8D922b1083446DC23F610C2567fB5180f",
+    address: "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
     symbol: "UNI",
     decimals: 18,
     chainId: 137,
@@ -608,7 +608,7 @@ export const tokens = {
   },
   USDC: {
     name: "USD Coin",
-    address: "0x2791bCA1f2De4661ED88a30C99a7A9449Aa84174",
+    address: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
     symbol: "USDC",
     decimals: 6,
     chainId: 137,
@@ -617,7 +617,7 @@ export const tokens = {
   },
   USDT: {
     name: "Tether USD",
-    address: "0xC2132D05D31c914A87C6611c10748AEb04B58e8F",
+    address: "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
     symbol: "USDT",
     decimals: 6,
     chainId: 137,
@@ -626,7 +626,7 @@ export const tokens = {
   },
   VISION: {
     name: "Vision Token",
-    address: "0x034B2090b579228482520C589dbD397c53Fc51Cc",
+    address: "0x034b2090b579228482520c589dbD397c53Fc51cC",
     symbol: "VISION",
     decimals: 18,
     chainId: 137,
@@ -635,7 +635,7 @@ export const tokens = {
   },
   WBTC: {
     name: "Wrapped BTC",
-    address: "0x1BFD67037b42Cf73ACf2047067Bd4f2c47d9bfd6",
+    address: "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
     symbol: "WBTC",
     decimals: 8,
     chainId: 137,
@@ -644,7 +644,7 @@ export const tokens = {
   },
   WISE: {
     name: "Wise Token",
-    address: "0xb77e62709E39aD1cbeEBE77cF493745AEC0F453A",
+    address: "0xB77e62709e39aD1cbeEBE77cF493745AeC0F453a",
     symbol: "WISE",
     decimals: 18,
     chainId: 137,
@@ -652,7 +652,7 @@ export const tokens = {
   },
   WMATIC: {
     name: "Wrapped Matic",
-    address: "0x0d500B1D8E8Ef31e21C99D1Db9A6444d3Adf1270",
+    address: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
     symbol: "WMATIC",
     decimals: 18,
     chainId: 137,
@@ -661,7 +661,7 @@ export const tokens = {
   },
   WOLF: {
     name: "moonwolf.io",
-    address: "0x8F18Dc399594b451eDA8c5DA02D0563c0B2d0f16",
+    address: "0x8f18dC399594b451EdA8c5da02d0563c0b2d0f16",
     symbol: "WOLF",
     decimals: 9,
     chainId: 137,
@@ -669,7 +669,7 @@ export const tokens = {
   },
   WRX: {
     name: "WazirX",
-    address: "0x72d6066F486bd0052eEfB9114B66aE40e0a6031a",
+    address: "0x72d6066F486bd0052eefB9114B66ae40e0A6031a",
     symbol: "WRX",
     decimals: 8,
     chainId: 137,
@@ -677,7 +677,7 @@ export const tokens = {
   },
   xMARK: {
     name: "Standard",
-    address: "0xf153eff70Dc0Bf3B085134928DaeEa248d9B30D0",
+    address: "0xf153EfF70DC0bf3b085134928daeEA248d9B30d0",
     symbol: "xMARK",
     decimals: 9,
     chainId: 137,
@@ -686,7 +686,7 @@ export const tokens = {
   },
   YFI: {
     name: "yearn.finance",
-    address: "0xDA537104d6A5eDd53C6fBBA9a898708E465260b6",
+    address: "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
     symbol: "YFI",
     decimals: 18,
     chainId: 137,
@@ -695,7 +695,7 @@ export const tokens = {
   },
   ZUT: {
     name: "ZeroUtility",
-    address: "0xE86E8beb7340659DDdce61727E500E3a5Ad75a90",
+    address: "0xe86E8beb7340659DDDCE61727E500e3A5aD75a90",
     symbol: "ZUT",
     decimals: 18,
     chainId: 137,
@@ -703,7 +703,7 @@ export const tokens = {
   },
   ZUZ: {
     name: "Zeus",
-    address: "0x232Eab56c4Fb3f84C6Fb0a50C087c74B7B43C6Ad",
+    address: "0x232eaB56c4fB3f84c6Fb0a50c087c74b7B43c6Ad",
     symbol: "ZUZ",
     decimals: 18,
     chainId: 137,

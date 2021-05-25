@@ -6,7 +6,7 @@ const transformTokenListToObject = (
 ): Record<string, Token> => {
   const map: Record<string, Token> = {};
   tokenList.tokens.forEach((token) => {
-    if (chainIdFilter && token.chainId === chainIdFilter) {
+    if ((chainIdFilter && token.chainId === chainIdFilter) || !chainIdFilter) {
       const tokenKey =
         token.symbol in map ? `${token.symbol}-${token.name}` : token.symbol;
       map[tokenKey] = token;

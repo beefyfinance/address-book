@@ -1,3 +1,3 @@
 export const lydia = {
-  router: "0xfb26525B14048b7Bb1f3794f6129176195db7766",
+  router: "0xFb26525B14048B7BB1F3794F6129176195Db7766",
 } as const;

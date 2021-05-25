@@ -1,7 +1,7 @@
 export const tokens = {
   WFTM: {
     name: "Wrapped Fantom",
-    address: "0x21BE370D5312F44CB42ce377Bc9b8A0cEF1A4c83",
+    address: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
     symbol: "WFTM",
     decimals: 18,
     chainId: 250,
@@ -9,7 +9,7 @@ export const tokens = {
   },
   sFTM: {
     name: "Staked FTM",
-    address: "0x69c744d3444202D35a2783929a0F930f2Fbb05AD",
+    address: "0x69c744D3444202d35a2783929a0F930f2FBB05ad",
     symbol: "sFTM",
     decimals: 18,
     chainId: 250,
@@ -17,7 +17,7 @@ export const tokens = {
   },
   fWTIOIL: {
     name: "fWTI Oil",
-    address: "0xe297E06761a5489380538A0308b6f9b4a53BeA45",
+    address: "0xe297e06761a5489380538A0308B6F9b4A53Bea45",
     symbol: "fWTIOIL",
     decimals: 18,
     chainId: 250,
@@ -25,7 +25,7 @@ export const tokens = {
   },
   fUSD: {
     name: "Fantom USD",
-    address: "0xad84341756bf337F5A0164515b1f6F993D194e1f",
+    address: "0xAd84341756Bf337f5a0164515b1f6F993D194E1f",
     symbol: "fUSD",
     decimals: 18,
     chainId: 250,
@@ -33,7 +33,7 @@ export const tokens = {
   },
   fSILVER: {
     name: "fSilver",
-    address: "0xF15E88Eef35BF4709a4C3E99c00358f9247d4531",
+    address: "0xf15e88EEf35BF4709A4C3E99c00358F9247D4531",
     symbol: "fSILVER",
     decimals: 18,
     chainId: 250,
@@ -41,7 +41,7 @@ export const tokens = {
   },
   fLINK: {
     name: "fLINK",
-    address: "0xa649a19423052dC6b320360B3C760884e095AC57",
+    address: "0xA649A19423052dC6b320360B3C760884E095AC57",
     symbol: "fLINK",
     decimals: 18,
     chainId: 250,
@@ -49,7 +49,7 @@ export const tokens = {
   },
   fKRW: {
     name: "fKRW",
-    address: "0x2b9C073eC670b70f417bBaf3BBb052aA563a0a23",
+    address: "0x2b9C073Ec670b70F417bbaf3BbB052AA563A0a23",
     symbol: "fKRW",
     decimals: 18,
     chainId: 250,
@@ -57,7 +57,7 @@ export const tokens = {
   },
   fJPY: {
     name: "fJPY",
-    address: "0x3b74389BC23057325baB96523DBeC8C445f55799",
+    address: "0x3B74389bc23057325BaB96523DBec8c445F55799",
     symbol: "fJPY",
     decimals: 18,
     chainId: 250,
@@ -65,7 +65,7 @@ export const tokens = {
   },
   fGOLD: {
     name: "fGold",
-    address: "0x2202C52C9076a49400aaccF159e1956269EAa673",
+    address: "0x2202C52C9076A49400aaccf159e1956269eaa673",
     symbol: "fGOLD",
     decimals: 18,
     chainId: 250,
@@ -73,7 +73,7 @@ export const tokens = {
   },
   fGBP: {
     name: "fGBP",
-    address: "0xcdE58e4b6C7B78b04da664EDB0A9752CC5Fedbd5",
+    address: "0xcDE58e4B6c7b78B04da664Edb0a9752CC5FEDBd5",
     symbol: "fGBP",
     decimals: 18,
     chainId: 250,
@@ -81,7 +81,7 @@ export const tokens = {
   },
   fEUR: {
     name: "fEUR",
-    address: "0xe105621721d1293c27bE7718E041A4ce0EBB227E",
+    address: "0xe105621721D1293c27be7718e041a4Ce0EbB227E",
     symbol: "fEUR",
     decimals: 18,
     chainId: 250,
@@ -89,7 +89,7 @@ export const tokens = {
   },
   fETH: {
     name: "fETH",
-    address: "0x658b0C7613E890ee50b8C4BC6A3f41eF411208ad",
+    address: "0x658b0c7613e890EE50B8C4BC6A3f41ef411208aD",
     symbol: "fETH",
     decimals: 18,
     chainId: 250,
@@ -97,7 +97,7 @@ export const tokens = {
   },
   fCNY: {
     name: "fCNY",
-    address: "0x24D39324CF3697FD9FD78714E8cdeb5Df66E3DcD",
+    address: "0x24d39324CF3697Fd9Fd78714E8cdeB5Df66E3DCd",
     symbol: "fCNY",
     decimals: 18,
     chainId: 250,
@@ -105,7 +105,7 @@ export const tokens = {
   },
   fCHF: {
     name: "fCHF",
-    address: "0x81740d647493A61329E1C574A11EE7577659FB14",
+    address: "0x81740D647493a61329E1c574A11ee7577659fb14",
     symbol: "fCHF",
     decimals: 18,
     chainId: 250,
@@ -113,7 +113,7 @@ export const tokens = {
   },
   fBTC: {
     name: "fBTC",
-    address: "0xe1146b9AC456FcBb60644c36fd3F868a9072FC6E",
+    address: "0xe1146b9AC456fCbB60644c36Fd3F868A9072fc6E",
     symbol: "fBTC",
     decimals: 18,
     chainId: 250,
@@ -121,7 +121,7 @@ export const tokens = {
   },
   fBNB: {
     name: "fBNB",
-    address: "0x27f26F00E1605903645bbABC0A73e35027dCCd45",
+    address: "0x27f26F00e1605903645BbaBC0a73E35027Dccd45",
     symbol: "fBNB",
     decimals: 18,
     chainId: 250,
@@ -129,7 +129,7 @@ export const tokens = {
   },
   fBAND: {
     name: "fBAND",
-    address: "0x078eef5A2fb533e1a4D487Ef64b27df113D12c32",
+    address: "0x078EEF5A2fb533e1a4d487ef64b27DF113d12C32",
     symbol: "fBAND",
     decimals: 18,
     chainId: 250,
@@ -137,7 +137,7 @@ export const tokens = {
   },
   LINK: {
     name: "ChainLink",
-    address: "0xB3654dC3D10Ea7645f8319668E8F54D2574FBdC8",
+    address: "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8",
     symbol: "LINK",
     decimals: 18,
     chainId: 250,
@@ -145,7 +145,7 @@ export const tokens = {
   },
   USDC: {
     name: "USD Coin",
-    address: "0x04068dA6C83afcfa0E13BA15a6696662335D5b75",
+    address: "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
     symbol: "USDC",
     decimals: 6,
     chainId: 250,
@@ -153,7 +153,7 @@ export const tokens = {
   },
   WBTC: {
     name: "Wrapped Bitcoin",
-    address: "0x321162CD933e2Be498CD2267a90534A804051b11",
+    address: "0x321162Cd933E2Be498Cd2267a90534A804051b11",
     symbol: "WBTC",
     decimals: 8,
     chainId: 250,
@@ -161,7 +161,7 @@ export const tokens = {
   },
   AAVE: {
     name: "Aave",
-    address: "0x6a07a792Ab2965C72a5b8088d3a069A7Ac3A993B",
+    address: "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B",
     symbol: "AAVE",
     decimals: 18,
     chainId: 250,
@@ -169,7 +169,7 @@ export const tokens = {
   },
   DAI: {
     name: "Dai Stablecoin",
-    address: "0x8d11EC38a3eb5E956b052f67Da8BDc9bEF8aBF3E",
+    address: "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
     symbol: "DAI",
     decimals: 18,
     chainId: 250,
@@ -177,7 +177,7 @@ export const tokens = {
   },
   SUSHI: {
     name: "Sushi",
-    address: "0xae75a438B2e0cB8BB01EC1E1E376DE11d44477CC",
+    address: "0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC",
     symbol: "SUSHI",
     decimals: 18,
     chainId: 250,
@@ -185,7 +185,7 @@ export const tokens = {
   },
   YFI: {
     name: "yearn.finance",
-    address: "0x29B0dA86e484e1C0029B56E817912D778AC0Ec69",
+    address: "0x29b0Da86e484E1C0029B56e817912d778aC0EC69",
     symbol: "YFI",
     decimals: 18,
     chainId: 250,
@@ -193,7 +193,7 @@ export const tokens = {
   },
   CRV: {
     name: "Curve DAO",
-    address: "0x1e4f97B9F9f913c46f1632781732927b9019c68b",
+    address: "0x1E4F97b9f9F913c46F1632781732927B9019C68b",
     symbol: "CRV",
     decimals: 18,
     chainId: 250,
@@ -201,7 +201,7 @@ export const tokens = {
   },
   BAND: {
     name: "Band",
-    address: "0x46e7628e8b4350b2716Ab470eE0BA1fa9E76C6c5",
+    address: "0x46E7628E8b4350b2716ab470eE0bA1fa9e76c6C5",
     symbol: "BAND",
     decimals: 18,
     chainId: 250,
@@ -209,7 +209,7 @@ export const tokens = {
   },
   SFI: {
     name: "Spice",
-    address: "0x924828A9FB17d47d0eB64b57271d10706699fF11",
+    address: "0x924828a9Fb17d47D0eb64b57271D10706699Ff11",
     symbol: "SFI",
     decimals: 18,
     chainId: 250,
@@ -217,7 +217,7 @@ export const tokens = {
   },
   HEGIC: {
     name: "Hegic",
-    address: "0x44b26e839Eb3572c5E959f994804a5DE66600349",
+    address: "0x44B26E839eB3572c5E959F994804A5De66600349",
     symbol: "HEGIC",
     decimals: 18,
     chainId: 250,
@@ -225,7 +225,7 @@ export const tokens = {
   },
   FRAX: {
     name: "Frax",
-    address: "0xaF319E5789945197e365e7f7fBFC56B130523B33",
+    address: "0xaf319E5789945197e365E7f7fbFc56B130523B33",
     symbol: "FRAX",
     decimals: 18,
     chainId: 250,
@@ -233,7 +233,7 @@ export const tokens = {
   },
   COVER: {
     name: "Cover",
-    address: "0xB01e8419D842BEebf1b70A7B5F7142ABBAF7159D",
+    address: "0xB01E8419d842beebf1b70A7b5f7142abbaf7159D",
     symbol: "COVER",
     decimals: 18,
     chainId: 250,
@@ -241,7 +241,7 @@ export const tokens = {
   },
   KP3R: {
     name: "Keep3r",
-    address: "0x2A5062d22ADCFAAfbD5c541d4DA82E4B450D4212",
+    address: "0x2A5062D22adCFaAfbd5C541d4dA82E4B450d4212",
     symbol: "KP3R",
     decimals: 18,
     chainId: 250,
@@ -249,7 +249,7 @@ export const tokens = {
   },
   WETH: {
     name: "Wrapped Ether",
-    address: "0x74B23882a30290451A17c44F4f05243B6B58C76d",
+    address: "0x74b23882a30290451A17c44f4F05243b6b58C76d",
     symbol: "WETH",
     decimals: 18,
     chainId: 250,
@@ -257,7 +257,7 @@ export const tokens = {
   },
   CREAM: {
     name: "Cream",
-    address: "0x657a1861C15A3deD9af0B6799A195A249EbdCBc6",
+    address: "0x657A1861c15A3deD9AF0B6799a195a249ebdCbc6",
     symbol: "CREAM",
     decimals: 18,
     chainId: 250,
@@ -265,7 +265,7 @@ export const tokens = {
   },
   sUSD: {
     name: "Synth sUSD",
-    address: "0x0e1694483eBB3B74D3054e383840c6cf011E518e",
+    address: "0x0E1694483eBB3b74d3054E383840C6cf011e518e",
     symbol: "sUSD",
     decimals: 18,
     chainId: 250,
@@ -273,7 +273,7 @@ export const tokens = {
   },
   SNX: {
     name: "Synthetix Network",
-    address: "0x56EE926Bd8C72b2d5fA1AF4D9e4cBB515a1e3aDc",
+    address: "0x56ee926bD8c72B2d5fa1aF4d9E4Cbb515a1E3Adc",
     symbol: "SNX",
     decimals: 18,
     chainId: 250,
@@ -281,7 +281,7 @@ export const tokens = {
   },
   ICE: {
     name: "IceToken",
-    address: "0xf16e81Dce15B08f326220742020379b855b87DF9",
+    address: "0xf16e81dce15B08F326220742020379B855B87DF9",
     symbol: "ICE",
     decimals: 18,
     chainId: 250,
@@ -290,7 +290,7 @@ export const tokens = {
   },
   fUSDT: {
     name: "Frapped USDT",
-    address: "0x049d68029688eABF473097a2fc38ef61633A3C7A",
+    address: "0x049d68029688eAbF473097a2fC38ef61633A3C7A",
     symbol: "fUSDT",
     decimals: 6,
     chainId: 250,

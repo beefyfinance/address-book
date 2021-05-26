@@ -711,7 +711,7 @@ export const tokens = {
   },
   ROUTE: {
     name: "Route",
-    address: "0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97",
+    address: "0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4",
     symbol: "ROUTE",
     decimals: 18,
     chainId: 137,
@@ -720,7 +720,7 @@ export const tokens = {
   },
   DYFN: {
     name: "Dyfn",
-    address: "0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4",
+    address: "0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97",
     symbol: "DYFN",
     decimals: 18,
     chainId: 137,

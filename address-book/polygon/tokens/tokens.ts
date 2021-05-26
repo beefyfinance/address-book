@@ -709,4 +709,38 @@ export const tokens = {
     chainId: 137,
     logoURI: "https://etherscan.io/token/images/zuzprotocol_32.png",
   },
+  ROUTE: {
+    name: "Route",
+    address: "0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97",
+    symbol: "ROUTE",
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/13709/small/route_token_200x200-19.png",
+  },
+  DYFN: {
+    name: "Dyfn",
+    address: "0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4",
+    symbol: "DYFN",
+    decimals: 18,
+    chainId: 137,
+    logoURI: "https://raw.githubusercontent.com/dfyn/assets/main/DFYN_logo.png",
+  },
+  TITAN: {
+    name: "Titan",
+    address: "0xaAa5B9e6c589642f98a1cDA99B9D024B8407285A",
+    symbol: "TITAN",
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0xaAa5B9e6c589642f98a1cDA99B9D024B8407285A/logo.png",
+  },
+  IRON: {
+    name: "Iron",
+    address: "0xD86b5923F3AD7b585eD81B448170ae026c65ae9a",
+    symbol: "IRON",
+    decimals: 18,
+    chainId: 137,
+    logoURI: "https://polygon.iron.finance/static/media/IRON.484ee2b8.png",
+  },
 } as const;

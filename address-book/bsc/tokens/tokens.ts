@@ -1097,4 +1097,13 @@ export const tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x8f0528ce5ef7b51152a59745befdd91d97091d2f.png",
   },
+  EPS: {
+    name: "Ellipsis",
+    symbol: "EPS",
+    address: "0xA7f552078dcC247C2684336020c03648500C6d9F",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xA7f552078dcC247C2684336020c03648500C6d9F.png",
+  },
 } as const;

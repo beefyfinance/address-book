@@ -5,6 +5,7 @@ import { polyzap } from "./platforms/polyzap";
 import { quickswap } from "./platforms/quickswap";
 import { sushi } from "./platforms/sushi";
 import { tokens } from "./tokens/tokens";
+import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
 
 export const polygon = {
   platforms: {
@@ -16,4 +17,5 @@ export const polygon = {
     sushi,
   },
   tokens,
+  addressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
 };

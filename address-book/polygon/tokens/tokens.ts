@@ -718,10 +718,10 @@ export const tokens = {
     logoURI:
       "https://assets.coingecko.com/coins/images/13709/small/route_token_200x200-19.png",
   },
-  DYFN: {
-    name: "Dyfn",
+  DFYN: {
+    name: "Dfyn",
     address: "0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97",
-    symbol: "DYFN",
+    symbol: "DFYN",
     decimals: 18,
     chainId: 137,
     logoURI: "https://raw.githubusercontent.com/dfyn/assets/main/DFYN_logo.png",

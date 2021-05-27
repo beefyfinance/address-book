@@ -1,6 +1,7 @@
 import { beefyfinance } from "./platforms/beefyfinance";
 import { spookyswap } from "./platforms/spookyswap";
 import { tokens } from "./tokens/tokens";
+import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
 
 export const fantom = {
   platforms: {
@@ -8,4 +9,5 @@ export const fantom = {
     spookyswap,
   },
   tokens,
+  tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
 };

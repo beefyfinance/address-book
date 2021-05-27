@@ -17,5 +17,5 @@ export const polygon = {
     sushi,
   },
   tokens,
-  addressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
+  tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
 };

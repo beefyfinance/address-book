@@ -743,4 +743,12 @@ export const tokens = {
     chainId: 137,
     logoURI: "https://polygon.iron.finance/static/media/IRON.484ee2b8.png",
   },
+  SUSHI: {
+    name: "Sushi",
+    address: "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
+    symbol: "SUSHI",
+    decimals: 18,
+    chainId: 137,
+    logoURI: "https://app.sushi.com/static/media/logo.11fafaa5.png",
+  },
 } as const;

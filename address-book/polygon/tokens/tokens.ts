@@ -760,4 +760,22 @@ export const tokens = {
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x5fe2B58c013d7601147DcdD68C143A77499f5531/logo.png",
   },
+  WOOFY: {
+    name: "Woofy",
+    address: "0xD0660cD418a64a1d44E9214ad8e459324D8157f1",
+    symbol: "WOOFY",
+    decimals: 12,
+    chainId: 137,
+    logoURI:
+      "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0xD0660cD418a64a1d44E9214ad8e459324D8157f1/logo.png",
+  },
+  renDOGE: {
+    name: "renDOGE",
+    address: "0x7C4A54f5d20b4023D6746F1f765f4DFe7C39a7e6",
+    symbol: "renDOGE",
+    decimals: 8,
+    chainId: 137,
+    logoURI:
+      "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x7C4A54f5d20b4023D6746F1f765f4DFe7C39a7e6/logo.png",
+  },
 } as const;

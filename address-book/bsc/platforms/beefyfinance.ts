@@ -1,5 +1,7 @@
 export const beefyfinance = {
   multisig: "0x8f0fFc8C7FC3157697Bdbf94B328F7141d6B41de",
   keeper: "0xd529b1894491a0a26B18939274ae8ede93E81dbA",
+  rewardPool: "0x453D4Ba9a2D594314DF88564248497F7D74d6b2C",
+  treasury: "0x4A32De8c248533C28904b24B4cFCFE18E9F2ad01",
   beefyFeeRecipient: "0xEB41298BA4Ea3865c33bDE8f60eC414421050d53",
 } as const;

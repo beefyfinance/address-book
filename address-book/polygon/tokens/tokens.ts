@@ -751,4 +751,13 @@ export const tokens = {
     chainId: 137,
     logoURI: "https://app.sushi.com/static/media/logo.11fafaa5.png",
   },
+  GRT: {
+    name: "The Graph",
+    address: "0x5fe2B58c013d7601147DcdD68C143A77499f5531",
+    symbol: "GRT",
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x5fe2B58c013d7601147DcdD68C143A77499f5531/logo.png",
+  },
 } as const;

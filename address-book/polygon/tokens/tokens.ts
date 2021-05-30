@@ -745,7 +745,7 @@ export const tokens = {
   },
   SUSHI: {
     name: "Sushi",
-    address: "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
+    address: "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
     symbol: "SUSHI",
     decimals: 18,
     chainId: 137,

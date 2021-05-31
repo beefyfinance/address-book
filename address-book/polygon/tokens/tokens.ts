@@ -778,4 +778,12 @@ export const tokens = {
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x7C4A54f5d20b4023D6746F1f765f4DFe7C39a7e6/logo.png",
   },
+  SNX: {
+    name: "SNX",
+    address: "0x50B728D8D964fd00C2d0AAD81718b71311feF68a",
+    symbol: "SNX",
+    decimals: 18,
+    chainId: 137,
+    logoURI: "https://app.sushi.com/images/tokens/snx-square.jpg",
+  },
 } as const;

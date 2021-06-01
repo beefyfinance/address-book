@@ -241,7 +241,7 @@ export const tokens = {
     symbol: "FXS",
     decimals: 18,
     chainId: 137,
-    logoURI: "https://avatars.githubusercontent.com/u/56005256?s=200&v=4",
+    logoURI: "https://app.sushi.com/images/tokens/fxs-square.jpg",
   },
   GAME: {
     name: "GAME Credits",

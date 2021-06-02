@@ -1,0 +1,32 @@
+name: Push actions
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: read
+      packages: write 
+    steps:
+      # get repo code
+      - uses: actions/checkout@v2
+      # install node
+      - name: Use Node.js 15.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: '15.x'
+          registry-url: 'https://registry.npmjs.org'
+      # install packages
+      - run: yarn --frozen-lockfile
+      # run checksum test
+      - run: yarn checksum
+      # transpile from Typescript to Javascript
+      - run: yarn compile
+      # publish package
+      - run: yarn publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

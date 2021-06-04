@@ -786,4 +786,13 @@ export const tokens = {
     chainId: 137,
     logoURI: "https://app.sushi.com/images/tokens/snx-square.jpg",
   },
+  CRV: {
+    name: "Curve Protocol",
+    symbol: "CRV",
+    address: "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://external-content.duckduckgo.com/ip3/resources.curve.fi.ico",
+  },
 } as const;

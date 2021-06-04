@@ -1,4 +1,522 @@
 export const tokens = {
+  KTN: {
+    name: "Kattana",
+    symbol: "KTN",
+    address: "0xDAe6c2A48BFAA66b43815c5548b10800919c993E",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xDAe6c2A48BFAA66b43815c5548b10800919c993E.png",
+  },
+  TUSD: {
+    name: "TrueUSD",
+    symbol: "TUSD",
+    address: "0x14016E85a25aeb13065688cAFB43044C2ef86784",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x14016e85a25aeb13065688cafb43044c2ef86784.png",
+  },
+  KALM: {
+    name: "KALM",
+    symbol: "KALM",
+    address: "0x4BA0057f784858a48fe351445C672FF2a3d43515",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x4BA0057f784858a48fe351445C672FF2a3d43515.png",
+  },
+  EZ: {
+    name: "EZ",
+    symbol: "EZ",
+    address: "0x5512014efa6Cd57764Fa743756F7a6Ce3358cC83",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x5512014efa6Cd57764Fa743756F7a6Ce3358cC83.png",
+  },
+  VRT: {
+    name: "VRT",
+    symbol: "VRT",
+    address: "0x5F84ce30DC3cF7909101C69086c50De191895883",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x5f84ce30dc3cf7909101c69086c50de191895883.png",
+  },
+  pOPEN: {
+    name: "pOPEN",
+    symbol: "pOPEN",
+    address: "0xaBaE871B7E3b67aEeC6B46AE9FE1A91660AadAC5",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xaBaE871B7E3b67aEeC6B46AE9FE1A91660AadAC5.png",
+  },
+  WELL: {
+    name: "BitWell",
+    symbol: "WELL",
+    address: "0xf07a32Eb035b786898c00bB1C64d8c6F8E7a46D5",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/bitwellex_32.png",
+  },
+  SNX: {
+    name: "Synthetix",
+    symbol: "SNX",
+    address: "0x9Ac983826058b8a9C7Aa1C9171441191232E8404",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/snx_32.png",
+  },
+  BLZ: {
+    name: "Bluezelle",
+    symbol: "BLZ",
+    address: "0x935a544Bf5816E3A7C13DB2EFe3009Ffda0aCdA2",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/blz.svg",
+  },
+  DERI: {
+    name: "Deri",
+    symbol: "DERI",
+    address: "0xe60eaf5A997DFAe83739e035b005A33AfdCc6df5",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xe60eaf5A997DFAe83739e035b005A33AfdCc6df5.png",
+  },
+  CHR: {
+    name: "Chromia",
+    symbol: "CHR",
+    address: "0xf9CeC8d50f6c8ad3Fb6dcCEC577e05aA32B224FE",
+    chainId: 56,
+    decimals: 6,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xf9CeC8d50f6c8ad3Fb6dcCEC577e05aA32B224FE.png",
+  },
+  XEND: {
+    name: "XEND",
+    symbol: "XEND",
+    address: "0x4a080377f83D669D7bB83B3184a8A5E61B500608",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/xendfinance_32.png",
+  },
+  CYC: {
+    name: "Cyclone Protocol",
+    symbol: "CYC",
+    address: "0x810EE35443639348aDbbC467b33310d2AB43c168",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/cyclone_32.png",
+  },
+  ZEC: {
+    name: "Z-Cash",
+    symbol: "ZEC",
+    address: "0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/ZEC.svg",
+  },
+  ETC: {
+    name: "Ethereum Classic",
+    symbol: "ETC",
+    address: "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/ETC.svg",
+  },
+  COTI: {
+    name: "Coti",
+    symbol: "COTI",
+    address: "0xAdBAF88B39D37Dc68775eD1541F1bf83A5A45feB",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/coti.svg",
+  },
+  NEAR: {
+    name: "Near",
+    symbol: "NEAR",
+    address: "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/near.svg",
+  },
+  GRAND: {
+    name: "Grand",
+    symbol: "GRAND",
+    address: "0xeE814F5B2bF700D2e843Dc56835D28d095161dd9",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/grandtoken_32.png",
+  },
+  SWAMP: {
+    name: "Swampy Token",
+    symbol: "SWAMP",
+    address: "0xc5A49b4CBe004b6FD55B30Ba1dE6AC360FF9765d",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/swampfinance_32.png",
+  },
+  HOTCROSS: {
+    name: "Hot Cross Token",
+    address: "0x4FA7163E153419E0E1064e418dd7A99314Ed27b6",
+    symbol: "HOTCROSS",
+    decimals: 18,
+    chainId: 56,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x4fa7163e153419e0e1064e418dd7a99314ed27b6.png",
+  },
+  RFOX: {
+    name: "RFOX Token",
+    address: "0x0a3A21356793B49154Fd3BbE91CBc2A16c0457f5",
+    symbol: "RFOX",
+    decimals: 18,
+    chainId: 56,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x0a3a21356793b49154fd3bbe91cbc2a16c0457f5.png",
+  },
+  HYFI: {
+    name: "HYFI Token",
+    symbol: "HYFI",
+    address: "0x9a319b959e33369C5eaA494a770117eE3e585318",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x9a319b959e33369C5eaA494a770117eE3e585318.png",
+  },
+  FINE: {
+    name: "Refinable Token",
+    symbol: "FINE",
+    address: "0x4e6415a5727ea08aAE4580057187923aeC331227",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/refinable_32.png",
+  },
+  tDOGE: {
+    name: "╧äDogecoin Token",
+    symbol: "tDOGE",
+    address: "0xe550a593d09FBC8DCD557b5C88Cea6946A8b404A",
+    chainId: 56,
+    decimals: 8,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xe550a593d09fbc8dcd557b5c88cea6946a8b404a.png",
+  },
+  OIN: {
+    name: "oinfinance Token",
+    symbol: "OIN",
+    address: "0x658E64FFcF40D240A43D52CA9342140316Ae44fA",
+    chainId: 56,
+    decimals: 8,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x658E64FFcF40D240A43D52CA9342140316Ae44fA.png",
+  },
+  ONE: {
+    name: "BigONE Token",
+    symbol: "ONE",
+    address: "0x04BAf95Fd4C52fd09a56D840bAEe0AB8D7357bf0",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x04BAf95Fd4C52fd09a56D840bAEe0AB8D7357bf0.png",
+  },
+  PMON: {
+    name: "Polkamon Token",
+    symbol: "PMON",
+    address: "0x1796ae0b0fa4862485106a0de9b654eFE301D0b2",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x1796ae0b0fa4862485106a0de9b654eFE301D0b2.png",
+  },
+  BTR: {
+    name: "Bitrue Token",
+    symbol: "BTR",
+    address: "0x5a16E8cE8cA316407c6E6307095dc9540a8D62B3",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x5a16E8cE8cA316407c6E6307095dc9540a8D62B3.png",
+  },
+  UBXT: {
+    name: "UpBots Token",
+    symbol: "UBXT",
+    address: "0xBbEB90cFb6FAFa1F69AA130B7341089AbeEF5811",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xbbeb90cfb6fafa1f69aa130b7341089abeef5811.png",
+  },
+  WMASS: {
+    name: "Wrapped MASS Token",
+    symbol: "WMASS",
+    address: "0x7e396BfC8a2f84748701167c2d622F041A1D7a17",
+    chainId: 56,
+    decimals: 8,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x7e396bfc8a2f84748701167c2d622f041a1d7a17.png",
+  },
+  FTS: {
+    name: "Fortress Token",
+    symbol: "FTS",
+    address: "0x4437743ac02957068995c48E08465E0EE1769fBE",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/fortress_32.png?v=4",
+  },
+  DND: {
+    name: "DIAMOND Token",
+    symbol: "DND",
+    address: "0x34EA3F7162E6f6Ed16bD171267eC180fD5c848da",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/diamond_32.png",
+  },
+  ZEFI: {
+    name: "ZCore Finance Token",
+    symbol: "ZEFI",
+    address: "0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/zcore-zefi_32.png",
+  },
+  ICA: {
+    name: "ICA Token",
+    symbol: "ICA",
+    address: "0x95111f630aC215Eb74599ED42C67E2c2790d69e2",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/icarus_32.png",
+  },
+  STEEL: {
+    name: "IRON Share V2 Token",
+    symbol: "STEEL",
+    address: "0x9001eE054F1692feF3A48330cB543b6FEc6287eb",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/ironfinance-share_32.png",
+  },
+  TYPH: {
+    name: "Typhoon Token",
+    symbol: "TYPH",
+    address: "0x4090e535F2e251F5F88518998B18b54d26B3b07c",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/typhoonnetwork_32.png",
+  },
+  IRON: {
+    name: "IRON Stablecoin Token",
+    symbol: "IRON",
+    address: "0x7b65B489fE53fCE1F6548Db886C08aD73111DDd8",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/ironfinance_32.png?=v1",
+  },
+  KEYFI: {
+    name: "KeyFi Token",
+    symbol: "KEYFI",
+    address: "0x4b6000F9163de2E3f0a01eC37E06e1469DBbcE9d",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/XBTC.svg",
+  },
+  BXBTC: {
+    name: "bxBTC Token",
+    symbol: "BXBTC",
+    address: "0xab111D5948470Ba73d98D66BBdf2798FBE093546",
+    chainId: 56,
+    decimals: 9,
+    logoURI: "https://dex.apeswap.finance/images/coins/XBTC.svg",
+  },
+  NAUT: {
+    name: "Astronaut Token",
+    symbol: "NAUT",
+    address: "0x05B339B0A346bF01f851ddE47a5d485c34FE220c",
+    chainId: 56,
+    decimals: 8,
+    logoURI: "https://dex.apeswap.finance/images/coins/NAUT.png",
+  },
+  IOTA: {
+    name: "MIOTAC Token",
+    symbol: "IOTA",
+    address: "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782",
+    chainId: 56,
+    decimals: 6,
+    logoURI: "https://dex.apeswap.finance/images/coins/IOTA.png",
+  },
+  AVAX: {
+    name: "Avalanche Token",
+    symbol: "AVAX",
+    address: "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/avax.png",
+  },
+  BANANA: {
+    name: "ApeSwapFinance Banana",
+    symbol: "BANANA",
+    address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/BANANA.svg",
+  },
+  FTM: {
+    name: "Fantom",
+    symbol: "FTM",
+    address: "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/FTM.svg",
+  },
+  AAVE: {
+    name: "Binance-Peg Aave Token",
+    symbol: "AAVE",
+    address: "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/AAVE.svg",
+  },
+  MATIC: {
+    name: "Matic Token",
+    symbol: "MATIC",
+    address: "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://dex.apeswap.finance/images/coins/MATIC.svg",
+  },
+  DOGE: {
+    name: "Binance-Peg Dogecoin",
+    symbol: "DOGE",
+    address: "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+    chainId: 56,
+    decimals: 8,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xba2ae424d960c26247dd6c32edc70b295c744c43.png",
+  },
+  HAKKA: {
+    name: "Hakka Finance on xDai on BSC TOKEN",
+    symbol: "HAKKA",
+    address: "0x1D1eb8E8293222e1a29d2C0E4cE6C0Acfd89AaaC",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x1d1eb8e8293222e1a29d2c0e4ce6c0acfd89aaac.png",
+  },
+  XED: {
+    name: "Exeedme TOKEN",
+    symbol: "XED",
+    address: "0x5621b5A3f4a8008c4CCDd1b942B121c8B1944F1f",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x5621b5a3f4a8008c4ccdd1b942b121c8b1944f1f.png",
+  },
+  CGG: {
+    name: "pTokens CGG TOKEN",
+    symbol: "CGG",
+    address: "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x1613957159e9b0ac6c80e824f7eea748a32a0ae2.png",
+  },
+  DFD: {
+    name: "DefiDollar DAO TOKEN",
+    symbol: "DFD",
+    address: "0x9899a98b222fCb2f3dbee7dF45d943093a4ff9ff",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x9899a98b222fcb2f3dbee7df45d943093a4ff9ff.png",
+  },
+  LMT: {
+    name: "Lympo Market TOKEN",
+    symbol: "LMT",
+    address: "0x9617857E191354dbEA0b714d78Bc59e57C411087",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x9617857e191354dbea0b714d78bc59e57c411087.png",
+  },
+  SUTER: {
+    name: "Suterusu TOKEN",
+    symbol: "SUTER",
+    address: "0x4CfbBdfBd5BF0814472fF35C72717Bd095ADa055",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x4cfbbdfbd5bf0814472ff35c72717bd095ada055.png",
+  },
+  GOAL: {
+    name: "Goal TOKEN",
+    symbol: "GOAL",
+    address: "0xE5b57E6e1b945B91FEE368aC108d2ebCcA78Aa8F",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "",
+  },
+  SPACE: {
+    name: "farm.space TOKEN",
+    symbol: "SPACE",
+    address: "0x0abd3E3502c15ec252f90F64341cbA74a24fba06",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "",
+  },
+  WIN: {
+    name: "WINk Token",
+    symbol: "WIN",
+    address: "0xaeF0d72a118ce24feE3cD1d43d383897D05B4e99",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xaef0d72a118ce24fee3cd1d43d383897d05b4e99.png",
+  },
+  TRX: {
+    name: "TRON Token",
+    symbol: "TRX",
+    address: "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b.png",
+  },
+  BTT: {
+    name: "BitTorrent Token",
+    symbol: "BTT",
+    address: "0x8595F9dA7b868b1822194fAEd312235E43007b49",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x8595f9da7b868b1822194faed312235e43007b49.png",
+  },
+  mCOIN: {
+    name: "Wrapped Mirror COIN Token",
+    symbol: "mCOIN",
+    address: "0x49022089e78a8D46Ec87A3AF86a1Db6c189aFA6f",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x49022089e78a8d46ec87a3af86a1db6c189afa6f.png",
+  },
+  MDX: {
+    name: "MDEX Token",
+    symbol: "MDX",
+    address: "0x9C65AB58d8d978DB963e63f2bfB7121627e3a739",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://mdex.com/token-icons/bsc/0x9c65ab58d8d978db963e63f2bfb7121627e3a739.png",
+  },
+  xBLZD: {
+    name: "xBLZD Token",
+    symbol: "xBLZD",
+    address: "0x9a946c3Cb16c08334b69aE249690C236Ebd5583E",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://app.beefy.finance/static/media/BLZD.fdf1fc8d.png",
+  },
   WBNB: {
     name: "WBNB Token",
     symbol: "WBNB",
@@ -133,15 +651,6 @@ export const tokens = {
     decimals: 18,
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0xfd7b3a77848f1c2d67e05e54d78d174a0c850335.png",
-  },
-  ZEC: {
-    name: "Zcash Token",
-    symbol: "ZEC",
-    address: "0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb",
-    chainId: 56,
-    decimals: 18,
-    logoURI:
-      "https://exchange.pancakeswap.finance/images/coins/0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb.png",
   },
   DAI: {
     name: "Dai Token",
@@ -656,45 +1165,45 @@ export const tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x928e55daB735aa8260AF3cEDadA18B5f70C72f1b.png",
   },
-  wSOTE: {
+  WSOTE: {
     name: "Soteria",
-    symbol: "wSOTE",
+    symbol: "WSOTE",
     address: "0x541E619858737031A1244A5d0Cd47E5ef480342c",
     chainId: 56,
     decimals: 18,
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x541e619858737031a1244a5d0cd47e5ef480342c.png",
   },
-  mTSLA: {
+  MTSLA: {
     name: "Mirror TSLA Token",
-    symbol: "mTSLA",
+    symbol: "MTSLA",
     address: "0xF215A127A196e3988C09d052e16BcFD365Cd7AA3",
     chainId: 56,
     decimals: 18,
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0xF215A127A196e3988C09d052e16BcFD365Cd7AA3.png",
   },
-  mAMZN: {
+  MAMZN: {
     name: "Mirror AMZN Token",
-    symbol: "mAMZN",
+    symbol: "MAMZN",
     address: "0x3947B992DC0147D2D89dF0392213781b04B25075",
     chainId: 56,
     decimals: 18,
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x3947B992DC0147D2D89dF0392213781b04B25075.png",
   },
-  mNFLX: {
+  MNFLX: {
     name: "Mirror NFLX Token",
-    symbol: "mNFLX",
+    symbol: "MNFLX",
     address: "0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc",
     chainId: 56,
     decimals: 18,
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc.png",
   },
-  mGOOGL: {
+  MGOOGL: {
     name: "Mirror GOOGL Token",
-    symbol: "mGOOGL",
+    symbol: "MGOOGL",
     address: "0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f",
     chainId: 56,
     decimals: 18,
@@ -818,9 +1327,9 @@ export const tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x52ce071bd9b1c4b00a0b92d298c512478cad67e8.png",
   },
-  SWGb: {
+  SWGB: {
     name: "Swirge Pay",
-    symbol: "SWGb",
+    symbol: "SWGB",
     address: "0xE40255C5d7fa7ceEc5120408C78C787CECB4cfdb",
     chainId: 56,
     decimals: 18,
@@ -899,9 +1408,9 @@ export const tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x947950bcc74888a40ffa2593c5798f11fc9124c4.png",
   },
-  bOPEN: {
+  BOPEN: {
     name: "OPEN Governance Token",
-    symbol: "bOPEN",
+    symbol: "BOPEN",
     address: "0xF35262a9d427F96d2437379eF090db986eaE5d42",
     chainId: 56,
     decimals: 18,
@@ -926,9 +1435,9 @@ export const tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x695FD30aF473F2960e81Dc9bA7cB67679d35EDb7.png",
   },
-  bMXX: {
+  BMXX: {
     name: "Multiplier",
-    symbol: "bMXX",
+    symbol: "BMXX",
     address: "0x4131b87F74415190425ccD873048C708F8005823",
     chainId: 56,
     decimals: 18,
@@ -944,9 +1453,9 @@ export const tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x9678e42cebeb63f23197d726b29b1cb20d0064e5.png",
   },
-  xMARK: {
+  XMARK: {
     name: "xMARK",
-    symbol: "xMARK",
+    symbol: "XMARK",
     address: "0x26A5dFab467d4f58fB266648CAe769503CEC9580",
     chainId: 56,
     decimals: 9,
@@ -1097,6 +1606,105 @@ export const tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x8f0528ce5ef7b51152a59745befdd91d97091d2f.png",
   },
+  DUSK: {
+    name: "Dusk",
+    symbol: "DUSK",
+    address: "0xB2BD0749DBE21f623d9BABa856D3B0f0e1BFEc9C",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xb2bd0749dbe21f623d9baba856d3b0f0e1bfec9c.png",
+  },
+  bDIGG: {
+    name: "bDIGG",
+    symbol: "bDIGG",
+    address: "0x5986D5c77c65e5801a5cAa4fAE80089f870A71dA",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x5986d5c77c65e5801a5caa4fae80089f870a71da.png",
+  },
+  bBADGER: {
+    name: "bBADGER",
+    symbol: "bBADGER",
+    address: "0x1F7216fdB338247512Ec99715587bb97BBf96eae",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x1f7216fdb338247512ec99715587bb97bbf96eae.png",
+  },
+  TRADE: {
+    name: "Unitrade",
+    symbol: "TRADE",
+    address: "0x7af173F350D916358AF3e218Bdf2178494Beb748",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x7af173f350d916358af3e218bdf2178494beb748.png",
+  },
+  PNT: {
+    name: "PNT",
+    symbol: "PNT",
+    address: "0xdaacB0Ab6Fb34d24E8a67BfA14BF4D95D4C7aF92",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x7a1da9f49224ef98389b071b8a3294d1cc5e3e6a.png",
+  },
+  pBTC: {
+    name: "pBTC",
+    symbol: "pBTC",
+    address: "0xeD28A457A5A76596ac48d87C0f577020F6Ea1c4C",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xed28a457a5a76596ac48d87c0f577020f6ea1c4c.png",
+  },
+  MIR: {
+    name: "Mirror Finance",
+    symbol: "MIR",
+    address: "0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x5b6dcf557e2abe2323c48445e8cc948910d8c2c9.png",
+  },
+  pCWS: {
+    name: "PolyCrowns",
+    symbol: "pCWS",
+    address: "0xbcf39F0EDDa668C58371E519AF37CA705f2bFcbd",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xbcf39f0edda668c58371e519af37ca705f2bfcbd.png",
+  },
+  ZIL: {
+    name: "Zilliqa",
+    symbol: "ZIL",
+    address: "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787",
+    chainId: 56,
+    decimals: 12,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xb86abcb37c3a4b64f74f59301aff131a1becc787.png",
+  },
+  LIEN: {
+    name: "Lien",
+    symbol: "LIEN",
+    address: "0x5d684ADaf3FcFe9CFb5ceDe3abf02F0Cdd1012E3",
+    chainId: 56,
+    decimals: 8,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x5d684adaf3fcfe9cfb5cede3abf02f0cdd1012e3.png",
+  },
+  SWTH: {
+    name: "Switcheo",
+    symbol: "SWTH",
+    address: "0x250b211EE44459dAd5Cd3bCa803dD6a7EcB5d46C",
+    chainId: 56,
+    decimals: 8,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x250b211EE44459dAd5Cd3bCa803dD6a7EcB5d46C.png",
+  },
   EPS: {
     name: "Ellipsis",
     symbol: "EPS",
@@ -1104,6 +1712,177 @@ export const tokens = {
     chainId: 56,
     decimals: 18,
     logoURI:
-      "https://exchange.pancakeswap.finance/images/coins/0xA7f552078dcC247C2684336020c03648500C6d9F.png",
+      "https://exchange.pancakeswap.finance/images/coins/0xa7f552078dcc247c2684336020c03648500c6d9f.png",
+  },
+  DFT: {
+    name: "DFuture",
+    symbol: "DFT",
+    address: "0x42712dF5009c20fee340B245b510c0395896cF6e",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x42712dF5009c20fee340B245b510c0395896cF6e.png",
+  },
+  GUM: {
+    name: "Gourmet Galaxy",
+    symbol: "GUM",
+    address: "0xc53708664b99DF348dd27C3Ac0759d2DA9c40462",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xc53708664b99DF348dd27C3Ac0759d2DA9c40462.png",
+  },
+  "ONE-Harmony One": {
+    name: "Harmony One",
+    symbol: "ONE",
+    address: "0x03fF0ff224f904be3118461335064bB48Df47938",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x03ff0ff224f904be3118461335064bb48df47938.png",
+  },
+  NRV: {
+    name: "Nerve Finance",
+    symbol: "NRV",
+    address: "0x42F6f551ae042cBe50C739158b4f0CAC0Edb9096",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x42f6f551ae042cbe50c739158b4f0cac0edb9096.png",
+  },
+  EASY: {
+    name: "Easyfi Network",
+    symbol: "EASY",
+    address: "0x7C17c8bED8d14bAccE824D020f994F4880D6Ab3B",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x7c17c8bed8d14bacce824d020f994f4880d6ab3b.png",
+  },
+  SAFEMOON: {
+    name: "SafeMoon",
+    symbol: "SAFEMOON",
+    address: "0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3",
+    chainId: 56,
+    decimals: 9,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3.png",
+  },
+  tBTC: {
+    name: "Tau Bitcoin",
+    symbol: "tBTC",
+    address: "0x2cD1075682b0FCCaADd0Ca629e138E64015Ba11c",
+    chainId: 56,
+    decimals: 9,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x2cD1075682b0FCCaADd0Ca629e138E64015Ba11c.png",
+  },
+  HOO: {
+    name: "Hoo",
+    symbol: "HOO",
+    address: "0xE1d1F66215998786110Ba0102ef558b22224C016",
+    chainId: 56,
+    decimals: 8,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xe1d1f66215998786110ba0102ef558b22224c016.png",
+  },
+  ODDZ: {
+    name: "Oddz",
+    symbol: "ODDZ",
+    address: "0xCD40F2670CF58720b694968698A5514e924F742d",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xcd40f2670cf58720b694968698a5514e924f742d.png",
+  },
+  APYS: {
+    name: "APYSwap",
+    symbol: "APYS",
+    address: "0x37dfACfaeDA801437Ff648A1559d73f4C40aAcb7",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x37dfACfaeDA801437Ff648A1559d73f4C40aAcb7.png",
+  },
+  BONDLY: {
+    name: "Bondly",
+    symbol: "BONDLY",
+    address: "0x96058f8C3e16576D9BD68766f3836d9A33158f89",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x96058f8c3e16576d9bd68766f3836d9a33158f89.png",
+  },
+  TKO: {
+    name: "TokoCrypto",
+    symbol: "TKO",
+    address: "0x9f589e3eabe42ebC94A44727b3f3531C0c877809",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x9f589e3eabe42ebc94a44727b3f3531c0c877809.png",
+  },
+  ITAM: {
+    name: "Itam",
+    symbol: "ITAM",
+    address: "0x04C747b40Be4D535fC83D09939fb0f626F32800B",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x04c747b40be4d535fc83d09939fb0f626f32800b.png",
+  },
+  ARPA: {
+    name: "ARPA",
+    symbol: "ARPA",
+    address: "0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x6f769e65c14ebd1f68817f5f1dcdb61cfa2d6f7e.png",
+  },
+  PERL: {
+    name: "Perlin X",
+    symbol: "PERL",
+    address: "0x0F9E4D49f25de22c2202aF916B681FBB3790497B",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x0f9e4d49f25de22c2202af916b681fbb3790497b.png",
+  },
+  JGN: {
+    name: "Juggernaut Finance",
+    symbol: "JGN",
+    address: "0xC13B7a43223BB9Bf4B69BD68Ab20ca1B79d81C75",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xc13b7a43223bb9bf4b69bd68ab20ca1b79d81c75.png",
+  },
+  TLM: {
+    name: "Alien Worlds",
+    symbol: "TLM",
+    address: "0x2222227E22102Fe3322098e4CBfE18cFebD57c95",
+    chainId: 56,
+    decimals: 4,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0x2222227e22102fe3322098e4cbfe18cfebd57c95.png",
+  },
+  ALPA: {
+    name: "AlpaToken",
+    symbol: "ALPA",
+    address: "0xc5E6689C9c8B02be7C49912Ef19e79cF24977f03",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xc5e6689c9c8b02be7c49912ef19e79cf24977f03.png",
+  },
+  HZN: {
+    name: "Horizon Protocol",
+    symbol: "HZN",
+    address: "0xC0eFf7749b125444953ef89682201Fb8c6A917CD",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xC0eFf7749b125444953ef89682201Fb8c6A917CD.png",
   },
 } as const;

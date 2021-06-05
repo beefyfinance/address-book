@@ -302,10 +302,10 @@ export const tokens = {
     logoURI:
       "https://assets.coingecko.com/coins/images/7697/small/N7aEdYrY_400x400.png?1561587437",
   },
-  Krill: {
+  KRILL: {
     name: "Krill",
     address: "0x05089C9EBFFa4F0AcA269e32056b1b36B37ED71b",
-    symbol: "Krill",
+    symbol: "KRILL",
     decimals: 18,
     chainId: 137,
     logoURI: "https://i.imgur.com/REyP9yh.jpg",
@@ -803,5 +803,13 @@ export const tokens = {
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9cEB84f92A0561fa3Cc4132aB9c0b76A59787544/logo.png",
+  },
+  PZAP: {
+    name: "PolyZap",
+    symbol: "PZAP",
+    address: "0xeb2778f74E5ee038E67AA6c77f0F0451ABd748FD",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://polyzap.finance/logo.png",
   },
 } as const;

@@ -2240,4 +2240,36 @@ export const tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0xC0eFf7749b125444953ef89682201Fb8c6A917CD.png",
   },
+  MTRG: {
+    name: "Wrapped MTRG on BSC by Meter.io",
+    symbol: "MTRG",
+    address: "0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "",
+  },
+  QKC: {
+    name: "QuarkChain Token",
+    symbol: "QKC",
+    address: "0xA1434F1FC3F437fa33F7a781E041961C0205B5Da",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "",
+  },
+  MX: {
+    name: "MX Token",
+    symbol: "MX",
+    address: "0x9F882567A62a5560d147d64871776EeA72Df41D3",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "",
+  },
+  BCFX: {
+    name: "BSC Conflux",
+    symbol: "BCFX",
+    address: "0x045c4324039dA91c52C55DF5D785385Aab073DcF",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/conflux_32.png",
+  },
 } as const;

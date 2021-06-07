@@ -812,4 +812,12 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://polyzap.finance/logo.png",
   },
+  GBULL: {
+    name: "GoldenBull Finance",
+    symbol: "GBULL",
+    address: "0x3E9B01762a82C12151CDE2094F8EF9BCAb774C8E",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://farms.goldenbull.finance/images/gbull/gbull-logo.png",
+  },
 } as const;

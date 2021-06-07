@@ -7,6 +7,7 @@ import { sushi } from "./platforms/sushi";
 import { goldenbull } from "./platforms/goldenbull";
 import { polycat } from "./platforms/polycat";
 import { iron } from "./platforms/iron";
+import { adamant } from "./platforms/adamant";
 import { tokens } from "./tokens/tokens";
 import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
 
@@ -21,6 +22,7 @@ export const polygon = {
     goldenbull,
     polycat,
     iron,
+    adamant,
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),

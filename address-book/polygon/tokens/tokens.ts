@@ -820,4 +820,12 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://farms.goldenbull.finance/images/gbull/gbull-logo.png",
   },
+  ADDY: {
+    name: "Adamant Finance",
+    symbol: "ADDY",
+    address: "0xc3FdbadC7c795EF1D6Ba111e06fF8F16A20Ea539",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://adamant.finance/img/ADDY.png",
+  },
 } as const;

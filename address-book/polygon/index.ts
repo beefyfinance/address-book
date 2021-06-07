@@ -5,6 +5,8 @@ import { polyzap } from "./platforms/polyzap";
 import { quickswap } from "./platforms/quickswap";
 import { sushi } from "./platforms/sushi";
 import { goldenbull } from "./platforms/goldenbull";
+import { polycat } from "./platforms/polycat";
+import { iron } from "./platforms/iron";
 import { tokens } from "./tokens/tokens";
 import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
 
@@ -17,6 +19,8 @@ export const polygon = {
     quickswap,
     sushi,
     goldenbull,
+    polycat,
+    iron,
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),

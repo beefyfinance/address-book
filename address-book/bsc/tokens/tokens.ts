@@ -1,4 +1,28 @@
 export const tokens = {
+  ATA: {
+    name: "Automata",
+    symbol: "ATA",
+    address: "0xA2120b9e674d3fC3875f415A7DF52e382F141225",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/automata_32.png"
+  },
+  SHIB: {
+    name: "SHIBA INU",
+    symbol: "SHIB",
+    address: "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/shibatoken_32.png"
+  },
+  CELR: {
+    name: "CelerToken",
+    symbol: "CELR",
+    address: "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/celernetwork_32.png"
+  },
   GARUDA: {
     name: "GarudaSwap",
     symbol: "GARUDA",

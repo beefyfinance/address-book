@@ -297,4 +297,13 @@ export const tokens = {
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
   },
+  BADGER: {
+    name: "Badger",
+    address: "0x753fbc5800a8C8e3Fb6DC6415810d627A387Dfc9",
+    symbol: "BADGER",
+    decimals: 18,
+    chainId: 250,
+    logoURI:
+      "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x3472A5A71965499acd81997a54BBA8D852C6E53d/logo.png",
+  },
 } as const;

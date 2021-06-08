@@ -1,3 +1,21 @@
+const ETH = {
+  name: "Wrapped Ether",
+  address: "0x74b23882a30290451A17c44f4F05243b6b58C76d",
+  symbol: "ETH",
+  decimals: 18,
+  chainId: 250,
+  logoURI: "https://ftmscan.com/token/images/wETH_32.png",
+};
+
+const BTC = {
+  name: "Wrapped Bitcoin",
+  address: "0x321162Cd933E2Be498Cd2267a90534A804051b11",
+  symbol: "BTC",
+  decimals: 8,
+  chainId: 250,
+  logoURI: "https://ftmscan.com/token/images/wBTC_32.png",
+};
+
 export const tokens = {
   WFTM: {
     name: "Wrapped Fantom",
@@ -152,13 +170,10 @@ export const tokens = {
     logoURI: "https://ftmscan.com/token/images/USDC_32.png",
   },
   WBTC: {
-    name: "Wrapped Bitcoin",
-    address: "0x321162Cd933E2Be498Cd2267a90534A804051b11",
+    ...BTC,
     symbol: "WBTC",
-    decimals: 8,
-    chainId: 250,
-    logoURI: "https://ftmscan.com/token/images/wBTC_32.png",
   },
+  BTC: BTC,
   AAVE: {
     name: "Aave",
     address: "0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B",
@@ -248,13 +263,10 @@ export const tokens = {
     logoURI: "https://ftmscan.com/token/images/kp3r_32.png",
   },
   WETH: {
-    name: "Wrapped Ether",
-    address: "0x74b23882a30290451A17c44f4F05243b6b58C76d",
+    ...ETH,
     symbol: "WETH",
-    decimals: 18,
-    chainId: 250,
-    logoURI: "https://ftmscan.com/token/images/wETH_32.png",
   },
+  ETH: ETH,
   CREAM: {
     name: "Cream",
     address: "0x657A1861c15A3deD9AF0B6799a195a249ebdCbc6",
@@ -305,5 +317,48 @@ export const tokens = {
     chainId: 250,
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x3472A5A71965499acd81997a54BBA8D852C6E53d/logo.png",
+  },
+  BIFI: {
+    name: "Beefy.Finance",
+    symbol: "BIFI",
+    address: "0xd6070ae98b8069de6B494332d1A1a81B6179D960",
+    chainId: 250,
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/images/single-assets/BIFI.png",
+  },
+  ANY: {
+    name: "AnySwap",
+    symbol: "ANY",
+    address: "0xdDcb3fFD12750B45d32E084887fdf1aABAb34239",
+    chainId: 250,
+    decimals: 18,
+    logoURI: "https://ftmscan.com/token/images/anyswap_32.png",
+  },
+  WOOFY: {
+    name: "Woofy",
+    symbol: "WOOFY",
+    address: "0xD0660cD418a64a1d44E9214ad8e459324D8157f1",
+    chainId: 250,
+    decimals: 12,
+    logoURI:
+      "https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/tokens/0xD0660cD418a64a1d44E9214ad8e459324D8157f1/logo-128.png",
+  },
+  BNB: {
+    name: "Binance Chain",
+    symbol: "BNB",
+    address: "0xD67de0e0a0Fd7b15dC8348Bb9BE742F3c5850454",
+    chainId: 250,
+    decimals: 18,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/825/large/binance-coin-logo.png",
+  },
+  BOO: {
+    name: "Spooky Swap",
+    symbol: "BOO",
+    address: "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
+    chainId: 250,
+    decimals: 18,
+    logoURI: "https://assets.spookyswap.finance/tokens/BOO.png",
   },
 } as const;

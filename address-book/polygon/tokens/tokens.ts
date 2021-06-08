@@ -302,10 +302,10 @@ export const tokens = {
     logoURI:
       "https://assets.coingecko.com/coins/images/7697/small/N7aEdYrY_400x400.png?1561587437",
   },
-  Krill: {
+  KRILL: {
     name: "Krill",
     address: "0x05089C9EBFFa4F0AcA269e32056b1b36B37ED71b",
-    symbol: "Krill",
+    symbol: "KRILL",
     decimals: 18,
     chainId: 137,
     logoURI: "https://i.imgur.com/REyP9yh.jpg",
@@ -785,5 +785,47 @@ export const tokens = {
     decimals: 18,
     chainId: 137,
     logoURI: "https://app.sushi.com/images/tokens/snx-square.jpg",
+  },
+  CRV: {
+    name: "Curve Protocol",
+    symbol: "CRV",
+    address: "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://external-content.duckduckgo.com/ip3/resources.curve.fi.ico",
+  },
+  DOKI: {
+    name: "DokiDoki Finance",
+    symbol: "DOKI",
+    address: "0x5C7F7Fe4766fE8f0fa9b41E2E4194d939488ff1C",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9cEB84f92A0561fa3Cc4132aB9c0b76A59787544/logo.png",
+  },
+  PZAP: {
+    name: "PolyZap",
+    symbol: "PZAP",
+    address: "0xeb2778f74E5ee038E67AA6c77f0F0451ABd748FD",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://polyzap.finance/logo.png",
+  },
+  GBULL: {
+    name: "GoldenBull Finance",
+    symbol: "GBULL",
+    address: "0x3E9B01762a82C12151CDE2094F8EF9BCAb774C8E",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://farms.goldenbull.finance/images/gbull/gbull-logo.png",
+  },
+  ADDY: {
+    name: "Adamant Finance",
+    symbol: "ADDY",
+    address: "0xc3FdbadC7c795EF1D6Ba111e06fF8F16A20Ea539",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://adamant.finance/img/ADDY.png",
   },
 } as const;

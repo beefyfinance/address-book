@@ -361,4 +361,12 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://assets.spookyswap.finance/tokens/BOO.png",
   },
+  BADGER: {
+    name: "Badger Finance",
+    symbol: "BADGER",
+    address: "0x753fbc5800a8C8e3Fb6DC6415810d627A387Dfc9",
+    chainId: 250,
+    decimals: 18,
+    logoURI: ""
+  },
 } as const;

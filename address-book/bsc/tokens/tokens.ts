@@ -1,5 +1,5 @@
 export const tokens = {
-  MBOX: {
+  TENFI: {
     name: "TENFI",
     symbol: "TENFI",
     address: "0xd15C444F1199Ae72795eba15E8C1db44E47abF62",

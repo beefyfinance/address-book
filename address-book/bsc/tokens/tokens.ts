@@ -1,5 +1,13 @@
 export const tokens = {
   MBOX: {
+    name: "TENFI",
+    symbol: "TENFI",
+    address: "0xd15C444F1199Ae72795eba15E8C1db44E47abF62",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/tenfinance_32.png"
+  },
+  MBOX: {
     name: "Mobox",
     symbol: "MBOX",
     address: "0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377",

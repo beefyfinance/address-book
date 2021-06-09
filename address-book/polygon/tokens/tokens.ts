@@ -828,4 +828,12 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://adamant.finance/img/ADDY.png",
   },
+  POLYGOLD: {
+    name: "POLYGOLD",
+    symbol: "POLYGOLD",
+    address: "0x0184316f58B9A44aCDD3e683257259dC0CF2202a",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://polygold.finance/images/egg/9.png",
+  },
 } as const;

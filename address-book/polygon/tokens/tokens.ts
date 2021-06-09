@@ -836,4 +836,46 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://polygold.finance/images/egg/9.png",
   },
+  PAUTO: {
+    name: "Autofarm.network",
+    symbol: "PAUTO",
+    address: "0x7f426F6Dc648e50464a0392E60E1BB465a67E9cf",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://autofarm.network/logo-round.svg",
+  },
+  IQ: {
+    name: "Everipedia IQ",
+    symbol: "IQ",
+    address: "0xB9638272aD6998708de56BBC0A290a1dE534a578",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://i.imgur.com/2Tocoq5.png",
+  },
+  FFF: {
+    name: "Future of Finance Fund",
+    symbol: "FFF",
+    address: "0x9aCeB6f749396d1930aBc9e263eFc449E5e82c13",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/15761/small/xg1NFl0.png?1621825451",
+  },
+  UFT: {
+    name: "UniLend Finance Token",
+    symbol: "UFT",
+    address: "0x5B4CF2C120A9702225814E18543ee658c5f8631e",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/12819/small/UniLend_Finance_logo_PNG.png?1602748658",
+  },
+  CHUM: {
+    name: "ChumHum",
+    symbol: "CHUM",
+    address: "0x2e2DDe47952b9c7deFDE7424d00dD2341AD927Ca",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://i.imgur.com/66lM7Rx.png",
+  },
 } as const;

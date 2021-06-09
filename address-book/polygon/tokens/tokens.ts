@@ -836,4 +836,12 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://polygold.finance/images/egg/9.png",
   },
+  PAUTO: {
+    name: "Autofarm.network",
+    symbol: "PAUTO",
+    address: "0x7f426F6Dc648e50464a0392E60E1BB465a67E9cf",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://autofarm.network/logo-round.svg",
+  },
 } as const;

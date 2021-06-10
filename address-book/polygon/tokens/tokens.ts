@@ -878,4 +878,13 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://i.imgur.com/66lM7Rx.png",
   },
+  ELE: {
+    name: "Eleven.finance",
+    symbol: "ELE",
+    address: "0xAcD7B3D9c10e97d0efA418903C0c7669E702E4C0",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/14541/small/eleven_finance_logo.png?1616895791",
+  },
 } as const;

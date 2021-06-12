@@ -887,4 +887,13 @@ export const tokens = {
     logoURI:
       "https://assets.coingecko.com/coins/images/14541/small/eleven_finance_logo.png?1616895791",
   },
+  WFIL: {
+    name: "Wrapped Filecoin",
+    symbol: "WFIL",
+    address: "0xEde1B77C0Ccc45BFa949636757cd2cA7eF30137F",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0xEde1B77C0Ccc45BFa949636757cd2cA7eF30137F/logo.png",
+  },
 } as const;

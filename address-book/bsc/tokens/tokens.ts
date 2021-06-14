@@ -2320,4 +2320,44 @@ export const tokens = {
     decimals: 9,
     logoURI: "",
   },
+  dBTC: {
+    name: "Diamond-Peg BTC",
+    symbol: "dBTC",
+    address: "0x6b77F51d4C474EFB15b72B829e6a0806bbc33724",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://app.iron.finance/static/media/DBTC.2bb24d53.png"
+  },
+  dBNB: {
+    name: "Diamond-Peg BNB",
+    symbol: "dBNB",
+    address: "0x4101fe75F547A65F6BB054A35F027c16562a45C3",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://app.iron.finance/static/media/DBNB.57de3f13.png"
+  },
+  dETH: {
+    name: "Diamond-Peg ETH",
+    symbol: "dETH",
+    address: "0xf633DEb2452918FA5248070C1986BE7a3895F3fC",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://app.iron.finance/static/media/DETH.4802e6eb.png"
+  },
+  dADA: {
+    name: "Diamond-Peg ADA",
+    symbol: "dBTC",
+    address: "0x68169d96a20dFe968B0fe714578969118c08484A",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://app.iron.finance/static/media/DADA.d9b1a86c.png"
+  },
+  dDOT: {
+    name: "Diamond-Peg DOT",
+    symbol: "dDOT",
+    address: "0x3E3434F57ADF4e07Dc2d75c6F109c20Ac96a1557",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "",
+  },
 } as const;

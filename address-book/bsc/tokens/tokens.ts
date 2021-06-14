@@ -2312,4 +2312,12 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://bscscan.com/token/images/conflux_32.png",
   },
+  "AMPL-BSC-mp": {
+    name: "Ample BSC (BRG Meter Passport)",
+    symbol: "AMPL-BSC-mp",
+    address: "0xDB021b1B247fe2F1fa57e0A87C748Cc1E321F07F",
+    chainId: 56,
+    decimals: 9,
+    logoURI: "",
+  },
 } as const;

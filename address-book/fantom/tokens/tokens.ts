@@ -17,6 +17,22 @@ const BTC = {
 };
 
 export const tokens = {
+  TSHARE: {
+    name: "TSHARE",
+    address: "0x4cdF39285D7Ca8eB3f090fDA0C069ba5F4145B37",
+    symbol: "TSHARE",
+    decimals: 18,
+    chainId: 250,
+    logoURI: "https://assets.spookyswap.finance/tokens/TSHARE.png",
+  },
+  TOMB: {
+    name: "TOMB",
+    address: "0x6c021Ae822BEa943b2E66552bDe1D2696a53fbB7",
+    symbol: "TOMB",
+    decimals: 18,
+    chainId: 250,
+    logoURI: "https://assets.spookyswap.finance/tokens/TOMB.png",
+  },
   WFTM: {
     name: "Wrapped Fantom",
     address: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",

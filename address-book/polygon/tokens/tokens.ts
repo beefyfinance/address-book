@@ -642,6 +642,14 @@ export const tokens = {
     logoURI:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
   },
+  WEXpoly: {
+    name: "WEXPoly",
+    address: "0x4c4BF319237D98a30A929A96112EfFa8DA3510EB",
+    symbol: "WEXPoly",
+    decimals: 18,
+    chainId: 137,
+    logoURI: "https://assets.coingecko.com/coins/images/16282/small/ws_purple_circle_200x200_%281%29.png",
+  },
   WISE: {
     name: "Wise Token",
     address: "0xB77e62709e39aD1cbeEBE77cF493745AeC0F453a",

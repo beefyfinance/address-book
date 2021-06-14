@@ -2346,7 +2346,7 @@ export const tokens = {
   },
   dADA: {
     name: "Diamond-Peg ADA",
-    symbol: "dBTC",
+    symbol: "dADA",
     address: "0x68169d96a20dFe968B0fe714578969118c08484A",
     chainId: 56,
     decimals: 18,

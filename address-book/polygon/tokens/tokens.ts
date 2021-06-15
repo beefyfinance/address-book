@@ -648,7 +648,8 @@ export const tokens = {
     symbol: "WEXPoly",
     decimals: 18,
     chainId: 137,
-    logoURI: "https://assets.coingecko.com/coins/images/16282/small/ws_purple_circle_200x200_%281%29.png",
+    logoURI:
+      "https://assets.coingecko.com/coins/images/16282/small/ws_purple_circle_200x200_%281%29.png",
   },
   WISE: {
     name: "Wise Token",
@@ -903,5 +904,13 @@ export const tokens = {
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0xEde1B77C0Ccc45BFa949636757cd2cA7eF30137F/logo.png",
+  },
+  BOOTY: {
+    name: "PirateBooty",
+    symbol: "BOOTY",
+    address: "0xD12DC5319808Bb31ba95AE5764def2627d5966CE",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://docs.piratedice.xyz/logo.png",
   },
 } as const;

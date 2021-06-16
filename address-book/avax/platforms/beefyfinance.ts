@@ -7,4 +7,5 @@ export const beefyfinance = {
   rewardPool: "0x86d38c6b6313c5A3021D68D1F57CF5e69197592A",
   treasury: "0xA3e3Af161943CfB3941B631676134bb048739727",
   beefyFeeRecipient: "0x85517F37d1e2ab145094A74C4E1DfE87E4D3f631",
+  multicall: "0x6FfF95AC47b586bDDEea244b3c2fe9c4B07b9F76",
 } as const;

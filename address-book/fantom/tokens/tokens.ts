@@ -17,6 +17,39 @@ const BTC = {
 };
 
 export const tokens = {
+  BUSD: {
+    name: "Binance USD",
+    address: "0xC931f61B1534EB21D8c11B24f3f5Ab2471d4aB50",
+    symbol: "BUSD",
+    decimals: 18,
+    chainId: 250,
+    logoURI: "",
+  },
+  SPIRIT: {
+    name: "SpiritSwap",
+    address: "0x5Cc61A78F164885776AA610fb0FE1257df78E59B",
+    symbol: "SPIRIT",
+    decimals: 18,
+    chainId: 250,
+    logoURI:
+      "https://raw.githubusercontent.com/Layer3Org/spiritswap-tokens-list-icon/master/token-list/images/0x5Cc61A78F164885776AA610fb0FE1257df78E59B.png",
+  },
+  TSHARE: {
+    name: "TSHARE",
+    address: "0x4cdF39285D7Ca8eB3f090fDA0C069ba5F4145B37",
+    symbol: "TSHARE",
+    decimals: 18,
+    chainId: 250,
+    logoURI: "https://assets.spookyswap.finance/tokens/TSHARE.png",
+  },
+  TOMB: {
+    name: "TOMB",
+    address: "0x6c021Ae822BEa943b2E66552bDe1D2696a53fbB7",
+    symbol: "TOMB",
+    decimals: 18,
+    chainId: 250,
+    logoURI: "https://assets.spookyswap.finance/tokens/TOMB.png",
+ },
   WFTM: {
     name: "Wrapped Fantom",
     address: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
@@ -308,6 +341,15 @@ export const tokens = {
     chainId: 250,
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+  },
+  BADGER: {
+    name: "Badger",
+    address: "0x753fbc5800a8C8e3Fb6DC6415810d627A387Dfc9",
+    symbol: "BADGER",
+    decimals: 18,
+    chainId: 250,
+    logoURI:
+      "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x3472A5A71965499acd81997a54BBA8D852C6E53d/logo.png",
   },
   BIFI: {
     name: "Beefy.Finance",

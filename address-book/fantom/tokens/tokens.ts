@@ -17,6 +17,23 @@ const BTC = {
 };
 
 export const tokens = {
+  BUSD: {
+    name: "Binance USD",
+    address: "0xC931f61B1534EB21D8c11B24f3f5Ab2471d4aB50",
+    symbol: "BUSD",
+    decimals: 18,
+    chainId: 250,
+    logoURI: "",
+  },
+  SPIRIT: {
+    name: "SpiritSwap",
+    address: "0x5Cc61A78F164885776AA610fb0FE1257df78E59B",
+    symbol: "SPIRIT",
+    decimals: 18,
+    chainId: 250,
+    logoURI:
+      "https://raw.githubusercontent.com/Layer3Org/spiritswap-tokens-list-icon/master/token-list/images/0x5Cc61A78F164885776AA610fb0FE1257df78E59B.png",
+  },
   WFTM: {
     name: "Wrapped Fantom",
     address: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",

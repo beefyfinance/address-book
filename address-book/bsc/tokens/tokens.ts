@@ -35,6 +35,46 @@ export const tokens = {
     logoURI:
       "https://tokens.pancakeswap.finance/images/0xEe9801669C6138E84bD50dEB500827b776777d28.png",
   },
+  TENFI: {
+    name: "TENFI",
+    symbol: "TENFI",
+    address: "0xd15C444F1199Ae72795eba15E8C1db44E47abF62",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/tenfinance_32.png"
+  },
+  MBOX: {
+    name: "Mobox",
+    symbol: "MBOX",
+    address: "0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/mobox_32.png"
+  },
+  ATA: {
+    name: "Automata",
+    symbol: "ATA",
+    address: "0xA2120b9e674d3fC3875f415A7DF52e382F141225",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/automata_32.png"
+  },
+  SHIB: {
+    name: "SHIBA INU",
+    symbol: "SHIB",
+    address: "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/shibatoken_32.png"
+  },
+  CELR: {
+    name: "CelerToken",
+    symbol: "CELR",
+    address: "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://bscscan.com/token/images/celernetwork_32.png"
+  },
   GARUDA: {
     name: "GarudaSwap",
     symbol: "GARUDA",
@@ -2307,5 +2347,53 @@ export const tokens = {
     chainId: 56,
     decimals: 18,
     logoURI: "https://bscscan.com/token/images/conflux_32.png",
+  },
+  "AMPL-BSC-mp": {
+    name: "Ample BSC (BRG Meter Passport)",
+    symbol: "AMPL-BSC-mp",
+    address: "0xDB021b1B247fe2F1fa57e0A87C748Cc1E321F07F",
+    chainId: 56,
+    decimals: 9,
+    logoURI: "",
+  },
+  dBTC: {
+    name: "Diamond-Peg BTC",
+    symbol: "dBTC",
+    address: "0x6b77F51d4C474EFB15b72B829e6a0806bbc33724",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://app.iron.finance/static/media/DBTC.2bb24d53.png"
+  },
+  dBNB: {
+    name: "Diamond-Peg BNB",
+    symbol: "dBNB",
+    address: "0x4101fe75F547A65F6BB054A35F027c16562a45C3",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://app.iron.finance/static/media/DBNB.57de3f13.png"
+  },
+  dETH: {
+    name: "Diamond-Peg ETH",
+    symbol: "dETH",
+    address: "0xf633DEb2452918FA5248070C1986BE7a3895F3fC",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://app.iron.finance/static/media/DETH.4802e6eb.png"
+  },
+  dADA: {
+    name: "Diamond-Peg ADA",
+    symbol: "dADA",
+    address: "0x68169d96a20dFe968B0fe714578969118c08484A",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://app.iron.finance/static/media/DADA.d9b1a86c.png"
+  },
+  dDOT: {
+    name: "Diamond-Peg DOT",
+    symbol: "dDOT",
+    address: "0x3E3434F57ADF4e07Dc2d75c6F109c20Ac96a1557",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "",
   },
 } as const;

@@ -1,4 +1,40 @@
 export const tokens = {
+  MARSH: {
+    name: "MARSH",
+    symbol: "MARSH",
+    address: "0x2FA5dAF6Fe0708fBD63b1A7D1592577284f52256",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://tokens.pancakeswap.finance/images/0x2FA5dAF6Fe0708fBD63b1A7D1592577284f52256.png",
+  },
+  BORING: {
+    name: "BoringDAO",
+    symbol: "BORING",
+    address: "0xffEecbf8D7267757c2dc3d13D730E97E15BfdF7F",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://tokens.pancakeswap.finance/images/0xffEecbf8D7267757c2dc3d13D730E97E15BfdF7F.png",
+  },
+  HAI: {
+    name: "Hai",
+    symbol: "HAI",
+    address: "0xaA9E582e5751d703F85912903bacADdFed26484C",
+    chainId: 56,
+    decimals: 8,
+    logoURI:
+      "https://tokens.pancakeswap.finance/images/0xaA9E582e5751d703F85912903bacADdFed26484C.png",
+  },
+  O3: {
+    name: "O3",
+    symbol: "O3",
+    address: "0xEe9801669C6138E84bD50dEB500827b776777d28",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://tokens.pancakeswap.finance/images/0xEe9801669C6138E84bD50dEB500827b776777d28.png",
+  },
   TENFI: {
     name: "TENFI",
     symbol: "TENFI",

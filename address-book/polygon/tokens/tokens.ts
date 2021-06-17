@@ -913,4 +913,12 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://docs.piratedice.xyz/logo.png",
   },
+  dTOP: {
+    name: "dHEDGE Top Index",
+    symbol: "dTOP",
+    address: "0x0361BdEAB89DF6BBcc52c43589FABba5143d19dD",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://app.dhedge.org/favicon.ico",
+  },
 } as const;

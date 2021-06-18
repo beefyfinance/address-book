@@ -929,4 +929,13 @@ export const tokens = {
     decimals: 18,
     logoURI: "",
   },
+  PBNB: {
+    name: "Orbit Bridge Polygon Binance Coin",
+    symbol: "PBNB",
+    address: "0x7e9928aFe96FefB820b85B4CE6597B8F660Fe4F4",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png",
+  },
 } as const;

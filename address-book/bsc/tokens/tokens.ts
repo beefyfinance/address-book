@@ -1,3 +1,13 @@
+const BNB = {
+  name: "WBNB Token",
+  symbol: "WBNB",
+  address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+  chainId: 56,
+  decimals: 18,
+  logoURI:
+    "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png",
+}
+
 export const tokens = {
   MARSH: {
     name: "MARSH",
@@ -948,15 +958,8 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://app.beefy.finance/static/media/BLZD.fdf1fc8d.png",
   },
-  WBNB: {
-    name: "WBNB Token",
-    symbol: "WBNB",
-    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-    chainId: 56,
-    decimals: 18,
-    logoURI:
-      "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png",
-  },
+  WBNB: BNB,
+  WNATIVE: BNB,
   BAKE: {
     name: "Bakery Token",
     symbol: "BAKE",

@@ -1,3 +1,13 @@
+const AVAX = {
+  chainId: 43114,
+  address: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+  decimals: 18,
+  name: "Wrapped AVAX",
+  symbol: "WAVAX",
+  logoURI:
+    "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
+}
+
 export const tokens = {
   PNG: {
     chainId: 43114,
@@ -8,15 +18,8 @@ export const tokens = {
     logoURI:
       "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0x60781C2586D68229fde47564546784ab3fACA982/logo.png",
   },
-  WAVAX: {
-    chainId: 43114,
-    address: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
-    decimals: 18,
-    name: "Wrapped AVAX",
-    symbol: "WAVAX",
-    logoURI:
-      "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
-  },
+  WAVAX: AVAX,
+  WNATIVE: AVAX,
   ETH: {
     chainId: 43114,
     address: "0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15",

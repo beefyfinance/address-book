@@ -16,6 +16,15 @@ const BTC = {
   logoURI: "https://ftmscan.com/token/images/wBTC_32.png",
 };
 
+const FTM = {
+  name: "Wrapped Fantom",
+  address: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+  symbol: "WFTM",
+  decimals: 18,
+  chainId: 250,
+  logoURI: "https://ftmscan.com/token/images/wFtm_32.png",
+}
+
 export const tokens = {
   BUSD: {
     name: "Binance USD",
@@ -50,14 +59,8 @@ export const tokens = {
     chainId: 250,
     logoURI: "https://assets.spookyswap.finance/tokens/TOMB.png",
  },
-  WFTM: {
-    name: "Wrapped Fantom",
-    address: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-    symbol: "WFTM",
-    decimals: 18,
-    chainId: 250,
-    logoURI: "https://ftmscan.com/token/images/wFtm_32.png",
-  },
+  WFTM: FTM,
+  WNATIVE: FTM,
   sFTM: {
     name: "Staked FTM",
     address: "0x69c744D3444202d35a2783929a0F930f2FBB05ad",

@@ -1,3 +1,13 @@
+const MATIC = {
+  name: "Wrapped Matic",
+  address: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+  symbol: "WMATIC",
+  decimals: 18,
+  chainId: 137,
+  logoURI:
+    "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
+}
+
 export const tokens = {
   $DG: {
     name: "decentral.games",
@@ -659,15 +669,8 @@ export const tokens = {
     chainId: 137,
     logoURI: "https://etherscan.io/token/images/wisetoken_32.png",
   },
-  WMATIC: {
-    name: "Wrapped Matic",
-    address: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-    symbol: "WMATIC",
-    decimals: 18,
-    chainId: 137,
-    logoURI:
-      "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
-  },
+  WMATIC: MATIC,
+  WNATIVE: MATIC,
   WOLF: {
     name: "moonwolf.io",
     address: "0x8f18dC399594b451EdA8c5da02d0563c0b2d0f16",

@@ -6,7 +6,7 @@ const MATIC = {
   chainId: 137,
   logoURI:
     "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
-}
+};
 
 export const tokens = {
   $DG: {
@@ -940,5 +940,13 @@ export const tokens = {
     decimals: 18,
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png",
+  },
+  YELD: {
+    name: "Polyyeld.Finance",
+    symbol: "YELD",
+    address: "0xd0f3121A190d85dE0AB6131f2bCEcdbfcfB38891",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://polyyeld.finance/images/egg/9.png",
   },
 } as const;

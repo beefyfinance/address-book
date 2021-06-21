@@ -77,6 +77,15 @@ export const tokens = {
     logoURI:
       "https://raw.githubusercontent.com/sameepsi/quickswap-default-token-list/master/assets/azuki.png",
   },
+  BANANA: {
+    name: "ApeSwapFinance Banana",
+    address: "0x5d47bAbA0d66083C52009271faF3F50DCc01023C",
+    symbol: "BANANA",
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      "https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/images/degens/BANANA.svg",
+  },
   BIFI: {
     name: "beefy.finance",
     address: "0xFbdd194376de19a88118e84E279b977f165d01b8",

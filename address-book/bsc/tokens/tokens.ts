@@ -6,9 +6,36 @@ const BNB = {
   decimals: 18,
   logoURI:
     "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png",
-}
+};
 
 export const tokens = {
+  DG: {
+    name: "Decentralized Game",
+    symbol: "DG",
+    address: "0x8B2824D57eebf07f5AfF5C91Fa67eD7C501A9f43",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://tokens.pancakeswap.finance/images/0x8B2824D57eebf07f5AfF5C91Fa67eD7C501A9f43.png",
+  },
+  WOO: {
+    name: "Woo",
+    symbol: "WOO",
+    address: "0x89eE0491CE55d2f7472A97602a95426216167189",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://tokens.pancakeswap.finance/images/0x89eE0491CE55d2f7472A97602a95426216167189.png",
+  },
+  HTB: {
+    name: "Hotbit",
+    symbol: "HTB",
+    address: "0x4e840AADD28DA189B9906674B4Afcb77C128d9ea",
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      "https://tokens.pancakeswap.finance/images/0x4e840AADD28DA189B9906674B4Afcb77C128d9ea.png",
+  },
   MARSH: {
     name: "MARSH",
     symbol: "MARSH",
@@ -51,7 +78,7 @@ export const tokens = {
     address: "0xd15C444F1199Ae72795eba15E8C1db44E47abF62",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://bscscan.com/token/images/tenfinance_32.png"
+    logoURI: "https://bscscan.com/token/images/tenfinance_32.png",
   },
   MBOX: {
     name: "Mobox",
@@ -59,7 +86,7 @@ export const tokens = {
     address: "0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://bscscan.com/token/images/mobox_32.png"
+    logoURI: "https://bscscan.com/token/images/mobox_32.png",
   },
   ATA: {
     name: "Automata",
@@ -67,7 +94,7 @@ export const tokens = {
     address: "0xA2120b9e674d3fC3875f415A7DF52e382F141225",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://bscscan.com/token/images/automata_32.png"
+    logoURI: "https://bscscan.com/token/images/automata_32.png",
   },
   SHIB: {
     name: "SHIBA INU",
@@ -75,7 +102,7 @@ export const tokens = {
     address: "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://bscscan.com/token/images/shibatoken_32.png"
+    logoURI: "https://bscscan.com/token/images/shibatoken_32.png",
   },
   CELR: {
     name: "CelerToken",
@@ -83,7 +110,7 @@ export const tokens = {
     address: "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://bscscan.com/token/images/celernetwork_32.png"
+    logoURI: "https://bscscan.com/token/images/celernetwork_32.png",
   },
   GARUDA: {
     name: "GarudaSwap",
@@ -2365,7 +2392,7 @@ export const tokens = {
     address: "0x6b77F51d4C474EFB15b72B829e6a0806bbc33724",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://app.iron.finance/static/media/DBTC.2bb24d53.png"
+    logoURI: "https://app.iron.finance/static/media/DBTC.2bb24d53.png",
   },
   dBNB: {
     name: "Diamond-Peg BNB",
@@ -2373,7 +2400,7 @@ export const tokens = {
     address: "0x4101fe75F547A65F6BB054A35F027c16562a45C3",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://app.iron.finance/static/media/DBNB.57de3f13.png"
+    logoURI: "https://app.iron.finance/static/media/DBNB.57de3f13.png",
   },
   dETH: {
     name: "Diamond-Peg ETH",
@@ -2381,7 +2408,7 @@ export const tokens = {
     address: "0xf633DEb2452918FA5248070C1986BE7a3895F3fC",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://app.iron.finance/static/media/DETH.4802e6eb.png"
+    logoURI: "https://app.iron.finance/static/media/DETH.4802e6eb.png",
   },
   dADA: {
     name: "Diamond-Peg ADA",
@@ -2389,7 +2416,7 @@ export const tokens = {
     address: "0x68169d96a20dFe968B0fe714578969118c08484A",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://app.iron.finance/static/media/DADA.d9b1a86c.png"
+    logoURI: "https://app.iron.finance/static/media/DADA.d9b1a86c.png",
   },
   dDOT: {
     name: "Diamond-Peg DOT",

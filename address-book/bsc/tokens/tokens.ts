@@ -12,20 +12,20 @@ export const tokens = {
   DG: {
     name: "Decentralized Game",
     symbol: "DG",
-    address: "0x8B2824D57eebf07f5AfF5C91Fa67eD7C501A9f43",
+    address: "0x9Fdc3ae5c814b79dcA2556564047C5e7e5449C19",
     chainId: 56,
     decimals: 18,
     logoURI:
-      "https://tokens.pancakeswap.finance/images/0x8B2824D57eebf07f5AfF5C91Fa67eD7C501A9f43.png",
+      "https://tokens.pancakeswap.finance/images/0x9Fdc3ae5c814b79dcA2556564047C5e7e5449C19.png",
   },
   WOO: {
     name: "Woo",
     symbol: "WOO",
-    address: "0x89eE0491CE55d2f7472A97602a95426216167189",
+    address: "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
     chainId: 56,
     decimals: 18,
     logoURI:
-      "https://tokens.pancakeswap.finance/images/0x89eE0491CE55d2f7472A97602a95426216167189.png",
+      "https://tokens.pancakeswap.finance/images/0x4691937a7508860F876c9c0a2a617E7d9E945D4B.png",
   },
   HTB: {
     name: "Hotbit",

@@ -10,6 +10,7 @@ import { polycat } from "./platforms/polycat";
 import { iron } from "./platforms/iron";
 import { adamant } from "./platforms/adamant";
 import { polyyeld } from "./platforms/polyyeld";
+import { polypup } from "./platforms/polypup";
 import { tokens } from "./tokens/tokens";
 import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
 
@@ -27,6 +28,7 @@ export const polygon = {
     iron,
     adamant,
     polyyeld,
+    polypup,
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),

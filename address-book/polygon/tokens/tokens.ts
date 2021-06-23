@@ -958,4 +958,12 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://polyyeld.finance/images/egg/9.png",
   },
+  PUP: {
+    name: "Polypup.Finance",
+    symbol: "PUP",
+    address: "0xcFe2cF35D2bDDE84967e67d00aD74237e234CE59",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://polypup.finance/images/egg/9.png",
+  },
 } as const;

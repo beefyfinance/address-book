@@ -9,6 +9,22 @@ const BNB = {
 };
 
 export const tokens = {
+  WEX: {
+    name: "WaultSwap",
+    symbol: "WEX",
+    address: "0xa9c41A46a6B3531d28d5c32F6633dd2fF05dFB90",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://pancakeswap.finance/images/tokens/0xa9c41A46a6B3531d28d5c32F6633dd2fF05dFB90.svg",
+  },
+  WAULTx: {
+    name: "Wault",
+    symbol: "WAULTx",
+    address: "0xB64E638E60D154B43f660a6BF8fD8a3b249a6a21",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://pancakeswap.finance/images/tokens/0xB64E638E60D154B43f660a6BF8fD8a3b249a6a21.svg",
+  },
   DG: {
     name: "Decentralized Game",
     symbol: "DG",

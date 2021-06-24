@@ -1,3 +1,6 @@
+import { ConstRecord } from "../../../types/const";
+import Token from "../../../types/token";
+
 const HT = {
   name: "Wrapped HT",
   symbol: "WHT",
@@ -5,9 +8,9 @@ const HT = {
   chainId: 128,
   decimals: 18,
   logoURI: "https://s2.coinmarketcap.com/static/img/coins/64x64/8524.png",
-};
+} as const;
 
-export const tokens = {
+const _tokens = {
   WHT: HT,
   WNATIVE: HT,
   ETH: {
@@ -44,3 +47,4 @@ export const tokens = {
       "https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/images/single-assets/BIFI.png",
   },
 } as const;
+export const tokens:ConstRecord<typeof _tokens, Token> = _tokens;

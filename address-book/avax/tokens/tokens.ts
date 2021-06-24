@@ -1,3 +1,6 @@
+import { ConstRecord } from "../../../types/const";
+import Token from "../../../types/token";
+
 const AVAX = {
   chainId: 43114,
   address: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
@@ -6,9 +9,9 @@ const AVAX = {
   symbol: "WAVAX",
   logoURI:
     "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
-}
+} as const;
 
-export const tokens = {
+const _tokens = {
   PNG: {
     chainId: 43114,
     address: "0x60781C2586D68229fde47564546784ab3fACA982",
@@ -3520,3 +3523,5 @@ export const tokens = {
       "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xDC42728B0eA910349ed3c6e1c9Dc06b5FB591f98/logo.png",
   },
 } as const;
+
+export const tokens:ConstRecord<typeof _tokens, Token> = _tokens;

@@ -14,8 +14,10 @@ import * as polypup from "./platforms/polypup";
 import { apeswap } from "./platforms/apeswap";
 import { tokens } from "./tokens/tokens";
 import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
+import Chain from "../../types/chain";
+import { ConstInterface } from "../../types/const";
 
-export const polygon = {
+const _polygon = {
   platforms: {
     beefyfinance,
     cometh,
@@ -34,4 +36,6 @@ export const polygon = {
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
-};
+} as const;
+
+export const polygon:ConstInterface<typeof _polygon, Chain> = _polygon;

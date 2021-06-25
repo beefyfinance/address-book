@@ -9,6 +9,14 @@ const BNB = {
 };
 
 export const tokens = {
+  RABBIT: {
+    name: "Rabbit Coin",
+    symbol: "RABBIT",
+    address: "0x95a1199EBA84ac5f19546519e287d43D2F0E1b41",
+    chainId: 56,
+    decimals: 18,
+    logoURI: "https://pancakeswap.finance/images/tokens/0x95a1199EBA84ac5f19546519e287d43D2F0E1b41.svg"
+  },
   WEX: {
     name: "WaultSwap",
     symbol: "WEX",

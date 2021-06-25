@@ -966,4 +966,20 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://polypup.finance/images/egg/9.png",
   },
+  rUSD: {
+    name: "Ramp USD",
+    symbol: "rUSD",
+    address: "0xfC40a4F89b410a1b855b5e205064a38fC29F5eb5",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://appv2.rampdefi.com/assets/icon/rusdc.svg",
+  },
+  RAMP: {
+    name: "Ramp DeFi",
+    symbol: "RAMP",
+    address: "0xaECeBfcF604AD245Eaf0D5BD68459C3a7A6399c2",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://appv2.rampdefi.com/assets/icon/ramp.png"
+  }
 } as const;

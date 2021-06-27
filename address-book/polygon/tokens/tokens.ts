@@ -555,6 +555,24 @@ export const tokens = {
     logoURI:
       "http://rebalancetoken.io/images/logo/RBAL_ERC20_small_001_256.png",
   },
+  SDO: {
+    name: "SafeDollar.Fi",
+    address: "0x86BC05a6f65efdaDa08528Ec66603Aef175D967f",
+    symbol: "SDO",
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      "https://storage.googleapis.com/polydex/tokens/0x86BC05a6f65efdaDa08528Ec66603Aef175D967f.png",
+  },
+  SDS: {
+    name: "SafeDollar Share",
+    address: "0x352db329B707773DD3174859F1047Fb4Fd2030BC",
+    symbol: "SDS",
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      "https://storage.googleapis.com/polydex/tokens/0x352db329B707773DD3174859F1047Fb4Fd2030BC.png",
+  },
   SENT: {
     name: "Sentinel",
     address: "0x48e3883233461C2eF4cB3FcF419D6db07fb86CeA",

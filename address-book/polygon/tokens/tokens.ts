@@ -941,6 +941,15 @@ export const tokens = {
     decimals: 18,
     logoURI: "",
   },
+  BNB: {
+    name: "AnySwap Bridge Polygon Binance Coin",
+    symbol: "BNB",
+    address: "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png",
+  },
   PBNB: {
     name: "Orbit Bridge Polygon Binance Coin",
     symbol: "PBNB",
@@ -980,6 +989,6 @@ export const tokens = {
     address: "0xaECeBfcF604AD245Eaf0D5BD68459C3a7A6399c2",
     chainId: 137,
     decimals: 18,
-    logoURI: "https://appv2.rampdefi.com/assets/icon/ramp.png"
-  }
+    logoURI: "https://appv2.rampdefi.com/assets/icon/ramp.png",
+  },
 } as const;

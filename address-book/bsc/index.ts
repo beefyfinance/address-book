@@ -8,7 +8,7 @@ const bsc = {
   platforms: {
     beefyfinance,
     pancake,
-    ironfinance
+    ironfinance,
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),

@@ -5,7 +5,7 @@ const HT = {
   chainId: 128,
   decimals: 18,
   logoURI: "https://s2.coinmarketcap.com/static/img/coins/64x64/8524.png",
-}
+};
 
 export const tokens = {
   WHT: HT,
@@ -33,5 +33,14 @@ export const tokens = {
     chainId: 128,
     decimals: 18,
     logoURI: "https://hecoinfo.com/token/images/lendhub_32.png",
+  },
+  BIFI: {
+    name: "Beefy.Finance",
+    symbol: "BIFI",
+    address: "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+    chainId: 128,
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/images/single-assets/BIFI.png",
   },
 } as const;

@@ -528,6 +528,22 @@ export const tokens = {
     chainId: 137,
     logoURI: "https://etherscan.io/token/images/pepedex_32.png?v=2",
   },
+  PUSD: {
+    name: "PUSD",
+    address: "0x9aF3b7DC29D3C4B1A5731408B6A9656fA7aC3b72",
+    symbol: "PUSD",
+    decimals: 18,
+    chainId: 137,
+    logoURI: "https://app.polyquity.org/static/media/icon-lqty.06b7d013.svg",
+  },
+  PYQ: {
+    name: "PYQ",
+    address: "0x5a3064CbDCCF428ae907796cF6aD5a664CD7F3d8",
+    symbol: "PYQ",
+    decimals: 18,
+    chainId: 137,
+    logoURI: "https://app.polyquity.org/static/media/icon-lqty1.3df5c310.svg",
+  },
   QI: {
     name: "Qi Dao",
     address: "0x580A84C73811E1839F75d86d75d88cCa0c241fF4",

@@ -1033,4 +1033,13 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://s2.coinmarketcap.com/static/img/coins/64x64/7129.png",
   },
+  WMATIC_DFYN: {
+    name: "Wrapped Matic, DFYN version",
+    symbol: "WMATIC",
+    address: "0x4c28f48448720e9000907BC2611F73022fdcE1fA",
+    chainId: 137,
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
+  },
 } as const;

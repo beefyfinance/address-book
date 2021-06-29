@@ -1026,6 +1026,8 @@ export const tokens = {
     address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
     chainId: 56,
     decimals: 18,
+    website: "https://www.binance.com/en/busd",
+    description: "Binance USD (BUSD) is a 1:1 USD-backed stable coin issued by Binance (in partnership with Paxos), Approved and regulated by the New York State Department of Financial Services (NYDFS), The BUSD Monthly Audit Report can be viewed from the official website.",
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png",
   },

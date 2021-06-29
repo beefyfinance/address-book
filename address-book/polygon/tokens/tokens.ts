@@ -1025,4 +1025,12 @@ export const tokens = {
     decimals: 18,
     logoURI: "https://appv2.rampdefi.com/assets/icon/ramp.png",
   },
+  UST: {
+    name: "USD Terra",
+    symbol: "UST",
+    address: "0x692597b009d13C4049a947CAB2239b7d6517875F",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://s2.coinmarketcap.com/static/img/coins/64x64/7129.png",
+  },
 } as const;

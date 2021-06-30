@@ -1042,4 +1042,12 @@ export const tokens = {
     logoURI:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
   },
+  BONE: {
+    name: "Polypup Bone",
+    symbol: "BONE",
+    address: "0x6bb45cEAC714c52342Ef73ec663479da35934bf7",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://bone.polypup.finance/images/egg/9.png",
+  },
 } as const;

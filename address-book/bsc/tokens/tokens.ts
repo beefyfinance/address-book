@@ -9,6 +9,14 @@ const BNB = {
 };
 
 export const tokens = {
+  ADX: {
+    name: 'AdEx Network',
+    symbol: 'ADX',
+    address: '0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819',
+    chainId: 56,
+    decimals: 18,
+    logoURI: 'https://pancakeswap.finance/images/tokens/0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819.svg'
+  },
   RABBIT: {
     name: "Rabbit Coin",
     symbol: "RABBIT",

@@ -3,8 +3,10 @@ import { mdex } from "./platforms/mdex";
 import { tokens } from "./tokens/tokens";
 
 import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
+import Chain from "../../types/chain";
+import { ConstInterface } from "../../types/const";
 
-export const heco = {
+const _heco = {
   platforms: {
     beefyfinance,
     mdex,
@@ -12,3 +14,4 @@ export const heco = {
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
 };
+export const heco:ConstInterface<typeof _heco, Chain> = _heco;

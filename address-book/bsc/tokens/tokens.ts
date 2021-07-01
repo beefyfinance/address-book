@@ -1,3 +1,6 @@
+import { ConstRecord } from "../../../types/const";
+import Token from "../../../types/token";
+
 const BNB = {
   name: "WBNB Token",
   symbol: "WBNB",
@@ -6,9 +9,9 @@ const BNB = {
   decimals: 18,
   logoURI:
     "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png",
-};
+} as const;
 
-export const tokens = {
+const _tokens = {
   ADX: {
     name: 'AdEx Network',
     symbol: 'ADX',
@@ -2469,3 +2472,4 @@ export const tokens = {
     logoURI: "",
   },
 } as const;
+export const tokens:ConstRecord<typeof _tokens, Token> = _tokens;

@@ -1,3 +1,6 @@
+import { ConstRecord } from "../../../types/const";
+import Token from "../../../types/token";
+
 const ETH = {
   name: "Wrapped Ether",
   address: "0x74b23882a30290451A17c44f4F05243b6b58C76d",
@@ -5,7 +8,7 @@ const ETH = {
   decimals: 18,
   chainId: 250,
   logoURI: "https://ftmscan.com/token/images/wETH_32.png",
-};
+} as const;
 
 const BTC = {
   name: "Wrapped Bitcoin",
@@ -14,7 +17,7 @@ const BTC = {
   decimals: 8,
   chainId: 250,
   logoURI: "https://ftmscan.com/token/images/wBTC_32.png",
-};
+} as const;
 
 const FTM = {
   name: "Wrapped Fantom",
@@ -23,9 +26,9 @@ const FTM = {
   decimals: 18,
   chainId: 250,
   logoURI: "https://ftmscan.com/token/images/wFtm_32.png",
-}
+} as const;
 
-export const tokens = {
+const _tokens = {
   BUSD: {
     name: "Binance USD",
     address: "0xC931f61B1534EB21D8c11B24f3f5Ab2471d4aB50",
@@ -398,3 +401,5 @@ export const tokens = {
     logoURI: "https://assets.spookyswap.finance/tokens/BOO.png",
   },
 } as const;
+
+export const tokens:ConstRecord<typeof _tokens, Token> = _tokens;

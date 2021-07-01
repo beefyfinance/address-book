@@ -1,3 +1,6 @@
+import { ConstRecord } from "../../../types/const";
+import Token from "../../../types/token";
+
 const MATIC = {
   name: "Wrapped Matic",
   address: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
@@ -6,9 +9,9 @@ const MATIC = {
   chainId: 137,
   logoURI:
     "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
-};
+} as const;
 
-export const tokens = {
+const _tokens = {
   $DG: {
     name: "decentral.games",
     address: "0x2a93172c8DCCbfBC60a39d56183B7279a2F647b4",
@@ -1051,3 +1054,5 @@ export const tokens = {
     logoURI: "https://bone.polypup.finance/images/egg/9.png",
   },
 } as const;
+
+export const tokens:ConstRecord<typeof _tokens, Token> = _tokens;

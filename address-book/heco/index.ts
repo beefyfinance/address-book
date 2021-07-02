@@ -14,4 +14,4 @@ const _heco = {
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
 };
-export const heco:ConstInterface<typeof _heco, Chain> = _heco;
+export const heco: ConstInterface<typeof _heco, Chain> = _heco;

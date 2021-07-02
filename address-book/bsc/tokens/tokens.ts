@@ -13,20 +13,22 @@ const BNB = {
 
 const _tokens = {
   ADX: {
-    name: 'AdEx Network',
-    symbol: 'ADX',
-    address: '0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819',
+    name: "AdEx Network",
+    symbol: "ADX",
+    address: "0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819",
     chainId: 56,
     decimals: 18,
-    logoURI: 'https://pancakeswap.finance/images/tokens/0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819.svg'
+    logoURI:
+      "https://pancakeswap.finance/images/tokens/0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819.svg",
   },
   BSCPAD: {
-    name: 'BSCPAD.com',
-    symbol: 'BSCPAD',
-    address: '0x5A3010d4d8D3B5fB49f8B6E57FB9E48063f16700',
+    name: "BSCPAD.com",
+    symbol: "BSCPAD",
+    address: "0x5A3010d4d8D3B5fB49f8B6E57FB9E48063f16700",
     chainId: 56,
     decimals: 18,
-    logoURI: 'https://pancakeswap.finance/images/tokens/0x5A3010d4d8D3B5fB49f8B6E57FB9E48063f16700.svg'
+    logoURI:
+      "https://pancakeswap.finance/images/tokens/0x5A3010d4d8D3B5fB49f8B6E57FB9E48063f16700.svg",
   },
   RABBIT: {
     name: "Rabbit Coin",
@@ -34,7 +36,8 @@ const _tokens = {
     address: "0x95a1199EBA84ac5f19546519e287d43D2F0E1b41",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://pancakeswap.finance/images/tokens/0x95a1199EBA84ac5f19546519e287d43D2F0E1b41.svg"
+    logoURI:
+      "https://pancakeswap.finance/images/tokens/0x95a1199EBA84ac5f19546519e287d43D2F0E1b41.svg",
   },
   WEX: {
     name: "WaultSwap",
@@ -42,7 +45,8 @@ const _tokens = {
     address: "0xa9c41A46a6B3531d28d5c32F6633dd2fF05dFB90",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://pancakeswap.finance/images/tokens/0xa9c41A46a6B3531d28d5c32F6633dd2fF05dFB90.svg",
+    logoURI:
+      "https://pancakeswap.finance/images/tokens/0xa9c41A46a6B3531d28d5c32F6633dd2fF05dFB90.svg",
   },
   WAULTx: {
     name: "Wault",
@@ -50,7 +54,8 @@ const _tokens = {
     address: "0xB64E638E60D154B43f660a6BF8fD8a3b249a6a21",
     chainId: 56,
     decimals: 18,
-    logoURI: "https://pancakeswap.finance/images/tokens/0xB64E638E60D154B43f660a6BF8fD8a3b249a6a21.svg",
+    logoURI:
+      "https://pancakeswap.finance/images/tokens/0xB64E638E60D154B43f660a6BF8fD8a3b249a6a21.svg",
   },
   DG: {
     name: "Decentralized Game",
@@ -1046,7 +1051,8 @@ const _tokens = {
     chainId: 56,
     decimals: 18,
     website: "https://www.binance.com/en/busd",
-    description: "Binance USD (BUSD) is a 1:1 USD-backed stable coin issued by Binance (in partnership with Paxos), Approved and regulated by the New York State Department of Financial Services (NYDFS), The BUSD Monthly Audit Report can be viewed from the official website.",
+    description:
+      "Binance USD (BUSD) is a 1:1 USD-backed stable coin issued by Binance (in partnership with Paxos), Approved and regulated by the New York State Department of Financial Services (NYDFS), The BUSD Monthly Audit Report can be viewed from the official website.",
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png",
   },
@@ -2472,4 +2478,4 @@ const _tokens = {
     logoURI: "",
   },
 } as const;
-export const tokens:ConstRecord<typeof _tokens, Token> = _tokens;
+export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

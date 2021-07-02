@@ -16,4 +16,4 @@ const _bsc = {
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
 };
 
-export const bsc:ConstInterface<typeof _bsc, Chain> = _bsc;
+export const bsc: ConstInterface<typeof _bsc, Chain> = _bsc;

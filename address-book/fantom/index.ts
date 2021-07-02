@@ -15,4 +15,4 @@ const _fantom = {
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
 };
-export const fantom:ConstInterface<typeof _fantom, Chain> = _fantom;
+export const fantom: ConstInterface<typeof _fantom, Chain> = _fantom;

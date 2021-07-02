@@ -47,4 +47,4 @@ const _tokens = {
       "https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/images/single-assets/BIFI.png",
   },
 } as const;
-export const tokens:ConstRecord<typeof _tokens, Token> = _tokens;
+export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

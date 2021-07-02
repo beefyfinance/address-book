@@ -13,4 +13,4 @@ const _avax = {
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
 };
-export const avax:ConstInterface<typeof _avax, Chain> = _avax;
+export const avax: ConstInterface<typeof _avax, Chain> = _avax;

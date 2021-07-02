@@ -38,4 +38,4 @@ const _polygon = {
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),
 } as const;
 
-export const polygon:ConstInterface<typeof _polygon, Chain> = _polygon;
+export const polygon: ConstInterface<typeof _polygon, Chain> = _polygon;

@@ -1055,4 +1055,4 @@ const _tokens = {
   },
 } as const;
 
-export const tokens:ConstRecord<typeof _tokens, Token> = _tokens;
+export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

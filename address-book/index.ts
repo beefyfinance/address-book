@@ -11,15 +11,16 @@ export * from "../types/chainid";
 
 const _addressBook = {
   polygon,
-  [ChainId.polygon]:polygon,
+  [ChainId.polygon]: polygon,
   bsc,
-  [ChainId.bsc]:bsc,
+  [ChainId.bsc]: bsc,
   avax,
-  [ChainId.avax]:avax,
+  [ChainId.avax]: avax,
   fantom,
-  [ChainId.fantom]:fantom,
+  [ChainId.fantom]: fantom,
   heco,
-  [ChainId.heco]:heco,
+  [ChainId.heco]: heco,
 } as const;
 
-export const addressBook:ConstRecord<typeof _addressBook, Chain> = _addressBook;
+export const addressBook: ConstRecord<typeof _addressBook, Chain> =
+  _addressBook;

@@ -61,7 +61,7 @@ const _tokens = {
     decimals: 18,
     chainId: 250,
     logoURI: "https://assets.spookyswap.finance/tokens/TOMB.png",
- },
+  },
   WFTM: FTM,
   WNATIVE: FTM,
   sFTM: {
@@ -402,4 +402,4 @@ const _tokens = {
   },
 } as const;
 
-export const tokens:ConstRecord<typeof _tokens, Token> = _tokens;
+export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

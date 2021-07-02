@@ -6,7 +6,8 @@
   "types": "build/address-book/index.d.ts",
   "files": [
     "build/address-book/",
-    "build/util/"
+    "build/util/",
+    "build/types/"
   ],
   "repository": "beefyfinance/address-book",
   "license": "MIT",

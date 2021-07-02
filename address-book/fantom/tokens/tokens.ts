@@ -198,6 +198,8 @@ const _tokens = {
     symbol: "LINK",
     decimals: 18,
     chainId: 250,
+    website: "https://chain.link/",
+    description: "Link is the currency used to pay the Chainlink node operators for their work. Chainlink node operators have to stake LINK in the network in order to participate and provide data services.",
     logoURI: "https://ftmscan.com/token/images/chainlink_32.png",
   },
   USDC: {
@@ -206,11 +208,15 @@ const _tokens = {
     symbol: "USDC",
     decimals: 6,
     chainId: 250,
+    website: "https://www.circle.com/usdc",
+    description: "USDC is a fully collateralized US dollar stablecoin. USDC is issued by regulated financial institutions, backed by fully reserved assets, redeemable on a 1:1 basis for US dollars.",
     logoURI: "https://ftmscan.com/token/images/USDC_32.png",
   },
   WBTC: {
     ...BTC,
     symbol: "WBTC",
+    website: "https://wbtc.network/",
+    description: "Wrapped Bitcoin (WBTC) is the first ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
   },
   BTC: BTC,
   AAVE: {
@@ -389,6 +395,8 @@ const _tokens = {
     address: "0xD67de0e0a0Fd7b15dC8348Bb9BE742F3c5850454",
     chainId: 250,
     decimals: 18,
+    website: "https://www.binance.com/",
+    description: "Binance Coin (BNB) is an exchange-based token created and issued by the cryptocurrency exchange Binance. Initially created on the Ethereum blockchain as an ERC-20 token in July 2017, BNB was migrated over to Binance Chain in February 2019 and became the native coin of the Binance Chain.",
     logoURI:
       "https://assets.coingecko.com/coins/images/825/large/binance-coin-logo.png",
   },

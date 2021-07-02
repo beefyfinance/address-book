@@ -230,6 +230,8 @@ const _tokens = {
     symbol: "ETH",
     decimals: 18,
     chainId: 137,
+    website: "https://ethereum.org/",
+    description: "The native currency that flows within the Ethereum economy is called Ether (ETH). Ether is typically used to pay for transaction fees called Gas, and it is the base currency of the network.",
     logoURI:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
   },
@@ -347,6 +349,8 @@ const _tokens = {
     symbol: "LINK",
     decimals: 18,
     chainId: 137,
+    website: "https://chain.link/",
+    description: "Link is the currency used to pay the Chainlink node operators for their work. Chainlink node operators have to stake LINK in the network in order to participate and provide data services.",
     logoURI:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
   },
@@ -659,6 +663,8 @@ const _tokens = {
     symbol: "UNI",
     decimals: 18,
     chainId: 137,
+    website: "https://uniswap.org/",
+    description: "UNI is the governance token for Uniswap. UNI was introduced on 16th September 2020 through a retrospective airdrop to users who have interacted with the protocol either by swapping tokens or by providing liquidity.",
     logoURI:
       "https://raw.githubusercontent.com/sameepsi/quickswap-interface/master/public/favicon1.png",
   },
@@ -668,6 +674,8 @@ const _tokens = {
     symbol: "USDC",
     decimals: 6,
     chainId: 137,
+    website: "https://www.circle.com/usdc",
+    description: "USDC is a fully collateralized US dollar stablecoin. USDC is issued by regulated financial institutions, backed by fully reserved assets, redeemable on a 1:1 basis for US dollars.",
     logoURI:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
   },
@@ -695,6 +703,8 @@ const _tokens = {
     symbol: "WBTC",
     decimals: 8,
     chainId: 137,
+    website: "https://wbtc.network/",
+    description: "Wrapped Bitcoin (WBTC) is the first ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
     logoURI:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
   },
@@ -984,6 +994,8 @@ const _tokens = {
     address: "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F",
     chainId: 137,
     decimals: 18,
+    website: "https://www.binance.com/",
+    description: "Binance Coin (BNB) is an exchange-based token created and issued by the cryptocurrency exchange Binance. Initially created on the Ethereum blockchain as an ERC-20 token in July 2017, BNB was migrated over to Binance Chain in February 2019 and became the native coin of the Binance Chain.",
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png",
   },

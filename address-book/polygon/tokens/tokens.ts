@@ -11,6 +11,16 @@ const MATIC = {
     "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
 } as const;
 
+const MAI = {
+  name: "Mai",
+  address: "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+  symbol: "MAI",
+  decimals: 18,
+  chainId: 137,
+  logoURI:
+    "https://raw.githubusercontent.com/0xlaozi/qidao/main/images/mimatic-red.png",
+} as const;
+
 const _tokens = {
   $DG: {
     name: "decentral.games",
@@ -445,15 +455,8 @@ const _tokens = {
     chainId: 137,
     logoURI: "https://etherscan.io/token/images/deflect_32.png?=v1",
   },
-  miMATIC: {
-    name: "miMATIC",
-    address: "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
-    symbol: "miMATIC",
-    decimals: 18,
-    chainId: 137,
-    logoURI:
-      "https://raw.githubusercontent.com/0xlaozi/qidao/main/images/mimatic-red.png",
-  },
+  miMATIC: MAI,
+  MAI: MAI,
   mOCEAN: {
     name: "Ocean Token",
     address: "0x282d8efCe846A88B159800bd4130ad77443Fa1A1",

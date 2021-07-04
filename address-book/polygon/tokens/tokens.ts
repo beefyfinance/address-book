@@ -1053,6 +1053,14 @@ const _tokens = {
     decimals: 18,
     logoURI: "https://bone.polypup.finance/images/egg/9.png",
   },
+  EZ: {
+    name: "EasyFi",
+    symbol: "EZ",
+    address: "0x34C1b299A74588D6Abdc1b85A53345A48428a521",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://etherscan.io/token/images/easyfi_32.png",
+  },
 } as const;
 
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

@@ -1061,6 +1061,14 @@ const _tokens = {
     decimals: 18,
     logoURI: "https://etherscan.io/token/images/easyfi_32.png",
   },
+  HEO: {
+    name: "Helios.cash",
+    symbol: "HEO",
+    address: "0x03aA5Daf9Fd5f7F33C67AfbCd53c1C1e87c4c9F7",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://www.helios.cash/static/media/logo1024.08eac992.svg",
+  },
 } as const;
 
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

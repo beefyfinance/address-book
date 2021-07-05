@@ -12,6 +12,7 @@ import { adamant } from "./platforms/adamant";
 import { polyyeld } from "./platforms/polyyeld";
 import * as polypup from "./platforms/polypup";
 import { apeswap } from "./platforms/apeswap";
+import { helioscash } from "./platforms/helioscash";
 import { tokens } from "./tokens/tokens";
 import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
 import Chain from "../../types/chain";
@@ -33,6 +34,7 @@ const _polygon = {
     polyyeld,
     ...polypup,
     apeswap,
+    helioscash,
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),

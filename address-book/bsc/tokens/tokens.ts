@@ -12,6 +12,30 @@ const BNB = {
 } as const;
 
 const _tokens = {
+  FORM: {
+    name: 'Formation Finance',
+    symbol: 'FORM',
+    address: '0x25A528af62e56512A19ce8c3cAB427807c28CC19',
+    chainId: 56,
+    decimals: 18,
+    logoURI: 'https://pancakeswap.finance/images/tokens/0x25A528af62e56512A19ce8c3cAB427807c28CC19.svg'
+  },
+  ORBS: {
+    name: 'Orbs',
+    symbol: 'ORBS',
+    address: '0xeBd49b26169e1b52c04cFd19FCf289405dF55F80',
+    chainId: 56,
+    decimals: 18,
+    logoURI: 'https://pancakeswap.finance/images/tokens/0xeBd49b26169e1b52c04cFd19FCf289405dF55F80.svg'
+  },
+  DVI: {
+    name: 'Dvision',
+    symbol: 'DVI',
+    address: '0x758FB037A375F17c7e195CC634D77dA4F554255B',
+    chainId: 56,
+    decimals: 18,
+    logoURI: 'https://pancakeswap.finance/images/tokens/0x758FB037A375F17c7e195CC634D77dA4F554255B.svg'
+  },
   ADX: {
     name: "AdEx Network",
     symbol: "ADX",

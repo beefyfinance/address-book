@@ -1053,6 +1053,14 @@ const _tokens = {
     decimals: 18,
     logoURI: "https://bone.polypup.finance/images/egg/9.png",
   },
+  BONEswap: {
+    name: "BoneSwap",
+    symbol: "BONE",
+    address: "0x80244C2441779361F35803b8C711C6c8fC6054a3",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://farm.boneswap.finance/images/bone/logo.png",
+  },
   EZ: {
     name: "EasyFi",
     symbol: "EZ",

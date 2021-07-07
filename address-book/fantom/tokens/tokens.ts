@@ -29,6 +29,14 @@ const FTM = {
 } as const;
 
 const _tokens = {
+  MIM: {
+    name: "albracabra",
+    address: "0x82f0B8B456c1A451378467398982d4834b6829c1",
+    symbol: "MIM",
+    decimals: 18,
+    chainId: 250,
+    logoURI: "",
+  },
   BUSD: {
     name: "Binance USD",
     address: "0xC931f61B1534EB21D8c11B24f3f5Ab2471d4aB50",
@@ -198,7 +206,8 @@ const _tokens = {
     symbol: "LINK",
     decimals: 18,
     website: "https://chain.link/",
-    description: "Link is the currency used to pay the Chainlink node operators for their work. Chainlink node operators have to stake LINK in the network in order to participate and provide data services.",
+    description:
+      "Link is the currency used to pay the Chainlink node operators for their work. Chainlink node operators have to stake LINK in the network in order to participate and provide data services.",
     chainId: 250,
     logoURI: "https://ftmscan.com/token/images/chainlink_32.png",
   },
@@ -208,7 +217,8 @@ const _tokens = {
     symbol: "USDC",
     decimals: 6,
     website: "https://www.circle.com/usdc",
-    description: "USDC is a fully collateralized US dollar stablecoin. USDC is issued by regulated financial institutions, backed by fully reserved assets, redeemable on a 1:1 basis for US dollars.",
+    description:
+      "USDC is a fully collateralized US dollar stablecoin. USDC is issued by regulated financial institutions, backed by fully reserved assets, redeemable on a 1:1 basis for US dollars.",
     chainId: 250,
     logoURI: "https://ftmscan.com/token/images/USDC_32.png",
   },
@@ -216,7 +226,8 @@ const _tokens = {
     ...BTC,
     symbol: "WBTC",
     website: "https://wbtc.network/",
-    description: "Wrapped Bitcoin (WBTC) is the first ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+    description:
+      "Wrapped Bitcoin (WBTC) is the first ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
   },
   BTC: BTC,
   AAVE: {
@@ -396,7 +407,8 @@ const _tokens = {
     chainId: 250,
     decimals: 18,
     website: "https://www.binance.com/",
-    description: "Binance Coin (BNB) is an exchange-based token created and issued by the cryptocurrency exchange Binance. Initially created on the Ethereum blockchain as an ERC-20 token in July 2017, BNB was migrated over to Binance Chain in February 2019 and became the native coin of the Binance Chain.",
+    description:
+      "Binance Coin (BNB) is an exchange-based token created and issued by the cryptocurrency exchange Binance. Initially created on the Ethereum blockchain as an ERC-20 token in July 2017, BNB was migrated over to Binance Chain in February 2019 and became the native coin of the Binance Chain.",
     logoURI:
       "https://assets.coingecko.com/coins/images/825/large/binance-coin-logo.png",
   },

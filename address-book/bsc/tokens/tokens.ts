@@ -14,6 +14,14 @@ const BNB = {
 } as const;
 
 const _tokens = {
+  MASK: {
+    name: 'Mask Network',
+    symbol: 'MASK',
+    address: '0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3',
+    chainId: 56,
+    decimals: 18,
+    logoURI: 'https://pancakeswap.finance/images/tokens/0x2eD9a5C8C13b93955103B9a7C167B67Ef4d568a3.svg'
+  },
   FORM: {
     name: 'Formation Finance',
     symbol: 'FORM',

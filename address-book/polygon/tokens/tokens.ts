@@ -1077,6 +1077,14 @@ const _tokens = {
     decimals: 18,
     logoURI: "https://www.helios.cash/static/media/logo1024.08eac992.svg",
   },
+  BRAIN: {
+    name: "BrainSwap",
+    symbol: "BRAIN",
+    address: "0x5C6014246FC7911F4dB270aA3910F23EECD61720",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://brainswap.finance/images/egg/9.png",
+  },
 } as const;
 
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

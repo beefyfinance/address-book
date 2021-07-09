@@ -770,7 +770,7 @@ const _tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0x658E64FFcF40D240A43D52CA9342140316Ae44fA.png",
   },
-  ONE: {
+  BigONE: {
     name: "BigONE Token",
     symbol: "ONE",
     address: "0x04BAf95Fd4C52fd09a56D840bAEe0AB8D7357bf0",
@@ -2304,7 +2304,7 @@ const _tokens = {
     logoURI:
       "https://exchange.pancakeswap.finance/images/coins/0xc53708664b99DF348dd27C3Ac0759d2DA9c40462.png",
   },
-  "ONE-Harmony One": {
+  ONE: {
     name: "Harmony One",
     symbol: "ONE",
     address: "0x03fF0ff224f904be3118461335064bB48Df47938",

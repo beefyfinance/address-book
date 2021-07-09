@@ -14,6 +14,14 @@ const BNB = {
 } as const;
 
 const _tokens = {
+  TITAN: {
+    name: 'TitanSwap',
+    symbol: 'TITAN',
+    address: '0xe898EDc43920F357A93083F1d4460437dE6dAeC2',
+    chainId: 56,
+    decimals: 18,
+    logoURI: 'https://pancakeswap.finance/images/tokens/0xe898EDc43920F357A93083F1d4460437dE6dAeC2.svg'
+  },
   MASK: {
     name: 'Mask Network',
     symbol: 'MASK',

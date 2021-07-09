@@ -1115,6 +1115,14 @@ const _tokens = {
     decimals: 18,
     logoURI: "https://brainswap.finance/images/egg/9.png",
   },
+  pWINGS: {
+    name: "JetSwap Polygon Token",
+    symbol: "pWINGS",
+    address: "0x845E76A8691423fbc4ECb8Dd77556Cb61c09eE25",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://polygon-info.jetswap.finance/static/media/wings.dca9f9fe.png",
+  },
 } as const;
 
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

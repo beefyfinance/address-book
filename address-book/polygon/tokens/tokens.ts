@@ -1121,7 +1121,16 @@ const _tokens = {
     address: "0x845E76A8691423fbc4ECb8Dd77556Cb61c09eE25",
     chainId: 137,
     decimals: 18,
-    logoURI: "https://polygon-info.jetswap.finance/static/media/wings.dca9f9fe.png",
+    logoURI:
+      "https://polygon-info.jetswap.finance/static/media/wings.dca9f9fe.png",
+  },
+  HONOR: {
+    name: "FarmHero HONOR",
+    symbol: "HONOR",
+    address: "0xb82A20B4522680951F11c94c54B8800c1C237693",
+    chainId: 137,
+    decimals: 18,
+    logoURI: "https://s2.coinmarketcap.com/static/img/coins/64x64/10620.png",
   },
 } as const;
 

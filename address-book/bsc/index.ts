@@ -1,6 +1,7 @@
 import { beefyfinance } from "./platforms/beefyfinance";
 import { pancake } from "./platforms/pancake";
 import { ironfinance } from "./platforms/ironfinance";
+import { farmhero } from "./platforms/farmhero";
 import { tokens } from "./tokens/tokens";
 import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
 import Chain from "../../types/chain";
@@ -11,6 +12,7 @@ const _bsc = {
     beefyfinance,
     pancake,
     ironfinance,
+    farmhero,
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),

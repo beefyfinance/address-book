@@ -16,6 +16,7 @@ import { helioscash } from "./platforms/helioscash";
 import { brainswap } from "./platforms/brainswap";
 import mai from "./platforms/mai";
 import jetswap from "./platforms/jetswap";
+import { farmhero } from "./platforms/farmhero";
 import { tokens } from "./tokens/tokens";
 import { convertSymbolTokenMapToAddressTokenMap } from "../../util/convertSymbolTokenMapToAddressTokenMap";
 import Chain from "../../types/chain";
@@ -40,7 +41,8 @@ const _polygon = {
     helioscash,
     brainswap,
     mai,
-    jetswap
+    jetswap,
+    farmhero,
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),

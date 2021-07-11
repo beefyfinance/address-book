@@ -7,6 +7,9 @@ const ETH = {
   symbol: "ETH",
   decimals: 18,
   chainId: 250,
+  website: "https://ethereum.org/",
+  description:
+    "The native currency that flows within the Ethereum economy is called Ether (ETH). Ether is typically used to pay for transaction fees called Gas, and it is the base currency of the network.",
   logoURI: "https://ftmscan.com/token/images/wETH_32.png",
 } as const;
 
@@ -16,6 +19,9 @@ const BTC = {
   symbol: "BTC",
   decimals: 8,
   chainId: 250,
+  website: "https://wbtc.network/",
+  description:
+    "Wrapped Bitcoin (WBTC) is the first ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
   logoURI: "https://ftmscan.com/token/images/wBTC_32.png",
 } as const;
 
@@ -25,6 +31,9 @@ const FTM = {
   symbol: "WFTM",
   decimals: 18,
   chainId: 250,
+  website: "https://fantom.foundation/",
+  description:
+    "Fantom is a fast, high-throughput open-source smart contract platform for digital assets and dApps.",
   logoURI: "https://ftmscan.com/token/images/wFtm_32.png",
 } as const;
 
@@ -35,6 +44,9 @@ const _tokens = {
     symbol: "MIM",
     decimals: 18,
     chainId: 250,
+    website: "https://abracadabra.money/",
+    description:
+      "You, the Spellcaster, can provide collateral in the form of various interest bearing crypto assets such as yvYFI, yvUSDT, yvUSDC, xSUSHI and more. With this, you can borrow magic internet money (MIM) which is a stable coin that you can swap for any other traditional stable coin.",
     logoURI: "",
   },
   BUSD: {
@@ -43,6 +55,9 @@ const _tokens = {
     symbol: "BUSD",
     decimals: 18,
     chainId: 250,
+    website: "https://www.binance.com/en/busd/",
+    description:
+      "These are digitised US Dollars and are always purchased and redeemed at 1 BUSD for 1 US dollar.",
     logoURI: "",
   },
   SPIRIT: {
@@ -51,6 +66,9 @@ const _tokens = {
     symbol: "SPIRIT",
     decimals: 18,
     chainId: 250,
+    website: "https://app.spiritswap.finance/#/",
+    description:
+      "SpiritSwap is a decentralized exchange (DEX) on the Fantom Opera Chain. SpiritSwap's design is based on the Uniswap constant-product automated market maker (AMM).",
     logoURI:
       "https://raw.githubusercontent.com/Layer3Org/spiritswap-tokens-list-icon/master/token-list/images/0x5Cc61A78F164885776AA610fb0FE1257df78E59B.png",
   },
@@ -60,6 +78,9 @@ const _tokens = {
     symbol: "TSHARE",
     decimals: 18,
     chainId: 250,
+    website: "https://tomb.finance/",
+    description:
+      "TOMB Shares (TSHARE) are one of the ways to measure the value of the TOMB Protocol and shareholder trust in its ability to maintain TOMB close to peg. During epoch expansions the protocol mints TOMB and distributes it proportionally to all TSHARE holders who have staked their tokens in the Masonry (boardroom).",
     logoURI: "https://assets.spookyswap.finance/tokens/TSHARE.png",
   },
   TOMB: {
@@ -68,6 +89,9 @@ const _tokens = {
     symbol: "TOMB",
     decimals: 18,
     chainId: 250,
+    website: "https://tomb.finance/",
+    description:
+      "The first algorithmic stablecoin on Fantom Opera, pegged to the price of 1 FTM via seigniorage.",
     logoURI: "https://assets.spookyswap.finance/tokens/TOMB.png",
   },
   WFTM: FTM,
@@ -89,11 +113,13 @@ const _tokens = {
     logoURI: "https://repository.fantom.network/logos/wti.svg",
   },
   fUSD: {
-    name: "Fantom USD",
+    name: "frappedUSD",
     address: "0xAd84341756Bf337f5a0164515b1f6F993D194E1f",
     symbol: "fUSD",
     decimals: 18,
     chainId: 250,
+    website: "https://frapped.io/",
+    description: "Frapped an innovative wrapper for USDT tokens.",
     logoURI: "https://ftmscan.com/token/images/fUSD_32.png",
   },
   fSILVER: {
@@ -236,6 +262,9 @@ const _tokens = {
     symbol: "AAVE",
     decimals: 18,
     chainId: 250,
+    website: "https://aave.com/",
+    description:
+      "Aave is a decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion.",
     logoURI: "https://ftmscan.com/token/images/aave_32.png",
   },
   DAI: {
@@ -244,6 +273,9 @@ const _tokens = {
     symbol: "DAI",
     decimals: 18,
     chainId: 250,
+    website: "https://makerdao.com/en/",
+    description:
+      "Dai is a stable, decentralized currency that does not discriminate. Any individual or business can realize the advantages of digital money.",
     logoURI: "https://ftmscan.com/token/images/MCDDai_32.png",
   },
   SUSHI: {
@@ -252,6 +284,9 @@ const _tokens = {
     symbol: "SUSHI",
     decimals: 18,
     chainId: 250,
+    website: "https://sushi.com/",
+    description:
+      "SushiSwap is an automated market-making (AMM) decentralized exchange (DEX) currently on the Ethereum blockchain.",
     logoURI: "https://ftmscan.com/token/images/sushiswap_32.png",
   },
   YFI: {
@@ -260,6 +295,9 @@ const _tokens = {
     symbol: "YFI",
     decimals: 18,
     chainId: 250,
+    website: "https://yearn.finance/",
+    description:
+      "Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.",
     logoURI: "https://ftmscan.com/token/images/YFI_32.png",
   },
   CRV: {
@@ -268,6 +306,9 @@ const _tokens = {
     symbol: "CRV",
     decimals: 18,
     chainId: 250,
+    website: "https://curve.fi/",
+    description:
+      "Curve is an exchange liquidity pool on Ethereum. Curve is designed for extremely efficient stablecoin trading and low risk, supplemental fee income for liquidity providers, without an opportunity cost.",
     logoURI: "https://ftmscan.com/token/images/CurveFi_32.png",
   },
   BAND: {
@@ -276,6 +317,9 @@ const _tokens = {
     symbol: "BAND",
     decimals: 18,
     chainId: 250,
+    website: "https://bandprotocol.com/",
+    description:
+      "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
     logoURI: "https://ftmscan.com/token/images/bandprotocol_32.png",
   },
   SFI: {
@@ -284,6 +328,9 @@ const _tokens = {
     symbol: "SFI",
     decimals: 18,
     chainId: 250,
+    website: "https://scifi.finance/",
+    description:
+      "The SPICE DAO is a decentralised community that launches and governs tokenised investment funds.",
     logoURI: "https://ftmscan.com/token/images/saffron_32.png",
   },
   HEGIC: {
@@ -292,6 +339,9 @@ const _tokens = {
     symbol: "HEGIC",
     decimals: 18,
     chainId: 250,
+    website: "https://www.hegic.co/",
+    description:
+      "Trade non-custodial options for profits or to hedge your positions. Enjoy fixed price and unlimited upside of the options contracts.",
     logoURI: "https://ftmscan.com/token/images/hegic_32.png",
   },
   FRAX: {
@@ -300,6 +350,9 @@ const _tokens = {
     symbol: "FRAX",
     decimals: 18,
     chainId: 250,
+    website: "https://frax.finance/",
+    description:
+      "The Frax Protocol introduced the world to the concept of a cryptocurrency being partially backed by collateral and partially stabilized algorithmically.",
     logoURI: "https://ftmscan.com/token/images/fraxfinance_32.png",
   },
   COVER: {
@@ -308,6 +361,9 @@ const _tokens = {
     symbol: "COVER",
     decimals: 18,
     chainId: 250,
+    website: "https://www.coverprotocol.com/",
+    description:
+      "Cover Protocol provides peer to peer coverage with fungible tokens. It lets the market set coverage prices as opposed to a bonding curve.",
     logoURI: "https://ftmscan.com/token/images/cover_32.png",
   },
   KP3R: {
@@ -316,6 +372,9 @@ const _tokens = {
     symbol: "KP3R",
     decimals: 18,
     chainId: 250,
+    website: "https://keep3r.network/",
+    description:
+      "Keep3r Network is a decentralized keeper network for projects that need external devops and for external teams to find keeper jobs.",
     logoURI: "https://ftmscan.com/token/images/kp3r_32.png",
   },
   WETH: {
@@ -329,6 +388,9 @@ const _tokens = {
     symbol: "CREAM",
     decimals: 18,
     chainId: 250,
+    website: "https://app.cream.finance/",
+    description:
+      "C.R.E.A.M. Finance is a decentralized lending protocol for individuals, institutions and protocols to access financial services.",
     logoURI: "https://ftmscan.com/token/images/CreamFinance_32.png",
   },
   sUSD: {
@@ -337,6 +399,9 @@ const _tokens = {
     symbol: "sUSD",
     decimals: 18,
     chainId: 250,
+    website: "https://synthetix.io/",
+    description:
+      "Tracks the price of a single US dollar (USD). The synth always remains at a constant of 1.",
     logoURI: "https://ftmscan.com/token/images/sUSD_32.png",
   },
   SNX: {
@@ -345,6 +410,9 @@ const _tokens = {
     symbol: "SNX",
     decimals: 18,
     chainId: 250,
+    website: "https://synthetix.io/",
+    description:
+      "Synthetix is the backbone for derivatives trading in DeFi, allowing anyone, anywhere to gain on-chain exposure to a vast range of assets.",
     logoURI: "https://ftmscan.com/token/images/Synthetix_SNX_32.png",
   },
   ICE: {
@@ -353,6 +421,9 @@ const _tokens = {
     symbol: "ICE",
     decimals: 18,
     chainId: 250,
+    website: "https://popsicle.finance/",
+    description:
+      "Popsicle is a next-gen cross-chain yield enhancement platform focusing on Automated Market-Making (AMM) Liquidity Providers (LP).",
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xf16e81dce15B08F326220742020379B855B87DF9/logo.png",
   },
@@ -362,6 +433,8 @@ const _tokens = {
     symbol: "fUSDT",
     decimals: 6,
     chainId: 250,
+    website: "https://frapped.io/",
+    description: "Frapped an innovative wrapper for USDT tokens.",
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
   },
@@ -371,6 +444,9 @@ const _tokens = {
     symbol: "BADGER",
     decimals: 18,
     chainId: 250,
+    website: "https://badger.finance/",
+    description:
+      "DAO dedicated to building products and infrastructure to bring Bitcoin to DeFi.",
     logoURI:
       "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x3472A5A71965499acd81997a54BBA8D852C6E53d/logo.png",
   },
@@ -380,6 +456,9 @@ const _tokens = {
     address: "0xd6070ae98b8069de6B494332d1A1a81B6179D960",
     chainId: 250,
     decimals: 18,
+    website: "https://www.beefy.finance/",
+    description:
+      "Beefy Finance is a Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings.",
     logoURI:
       "https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/images/single-assets/BIFI.png",
   },
@@ -389,6 +468,9 @@ const _tokens = {
     address: "0xdDcb3fFD12750B45d32E084887fdf1aABAb34239",
     chainId: 250,
     decimals: 18,
+    website: "https://anyswap.exchange/dashboard",
+    description:
+      "Anyswap is a fully decentralized cross chain swap protocol, based on Fusion DCRM technology, with automated pricing and liquidity system.",
     logoURI: "https://ftmscan.com/token/images/anyswap_32.png",
   },
   WOOFY: {
@@ -397,6 +479,9 @@ const _tokens = {
     address: "0xD0660cD418a64a1d44E9214ad8e459324D8157f1",
     chainId: 250,
     decimals: 12,
+    website: "https://woofy.finance/",
+    description:
+      "The WOOFY token is the blue dog companion token of YFI. Utilizing special Woof technology, it allows two-way conversion between the two tokens, allowing holders to be exposed to YFI in a fluffier package.",
     logoURI:
       "https://raw.githubusercontent.com/yearn/yearn-assets/master/icons/tokens/0xD0660cD418a64a1d44E9214ad8e459324D8157f1/logo-128.png",
   },
@@ -418,6 +503,9 @@ const _tokens = {
     address: "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
     chainId: 250,
     decimals: 18,
+    website: "https://spookyswap.finance/",
+    description:
+      "SpookySwap is an automated market-making (AMM) decentralized exchange (DEX) for the Fantom Opera network. Different from other DEXs, we're invested in building a strong foundation with our BOO token as a governance token, diverse farms, grants to encourage a healthy ecology of other Fantom projects, and user-centered service.",
     logoURI: "https://assets.spookyswap.finance/tokens/BOO.png",
   },
 } as const;
